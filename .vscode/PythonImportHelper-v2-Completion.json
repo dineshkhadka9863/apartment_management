@@ -1,0 +1,3466 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "IntegrityError",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "template",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "ValidationError",
+        "importPath": "django.core.exceptions",
+        "description": "django.core.exceptions",
+        "isExtraImport": true,
+        "detail": "django.core.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "gettext_lazy",
+        "importPath": "django.utils.translation",
+        "description": "django.utils.translation",
+        "isExtraImport": true,
+        "detail": "django.utils.translation",
+        "documentation": {}
+    },
+    {
+        "label": "Apartment",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "Apartment",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "Apartment",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserPreferences",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "Apartment",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserPreferences",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "Apartment",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "Apartment",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "Apartment",
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "isExtraImport": true,
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "user.models",
+        "description": "user.models",
+        "isExtraImport": true,
+        "detail": "user.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "user.models",
+        "description": "user.models",
+        "isExtraImport": true,
+        "detail": "user.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "user.models",
+        "description": "user.models",
+        "isExtraImport": true,
+        "detail": "user.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "importPath": "user.models",
+        "description": "user.models",
+        "isExtraImport": true,
+        "detail": "user.models",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "removeBooked",
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "isExtraImport": true,
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "apartment_details",
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "isExtraImport": true,
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "get_object_or_404",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views",
+        "description": "django.views",
+        "isExtraImport": true,
+        "detail": "django.views",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views",
+        "description": "django.views",
+        "isExtraImport": true,
+        "detail": "django.views",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "importPath": "django.core.cache",
+        "description": "django.core.cache",
+        "isExtraImport": true,
+        "detail": "django.core.cache",
+        "documentation": {}
+    },
+    {
+        "label": "cache",
+        "importPath": "django.core.cache",
+        "description": "django.core.cache",
+        "isExtraImport": true,
+        "detail": "django.core.cache",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "TfidfVectorizer",
+        "importPath": "sklearn.feature_extraction.text",
+        "description": "sklearn.feature_extraction.text",
+        "isExtraImport": true,
+        "detail": "sklearn.feature_extraction.text",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "cosine_similarity",
+        "importPath": "sklearn.metrics.pairwise",
+        "description": "sklearn.metrics.pairwise",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics.pairwise",
+        "documentation": {}
+    },
+    {
+        "label": "OneHotEncoder",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "ColumnTransformer",
+        "importPath": "sklearn.compose",
+        "description": "sklearn.compose",
+        "isExtraImport": true,
+        "detail": "sklearn.compose",
+        "documentation": {}
+    },
+    {
+        "label": "Pipeline",
+        "importPath": "sklearn.pipeline",
+        "description": "sklearn.pipeline",
+        "isExtraImport": true,
+        "detail": "sklearn.pipeline",
+        "documentation": {}
+    },
+    {
+        "label": "BaseEstimator",
+        "importPath": "sklearn.base",
+        "description": "sklearn.base",
+        "isExtraImport": true,
+        "detail": "sklearn.base",
+        "documentation": {}
+    },
+    {
+        "label": "TransformerMixin",
+        "importPath": "sklearn.base",
+        "description": "sklearn.base",
+        "isExtraImport": true,
+        "detail": "sklearn.base",
+        "documentation": {}
+    },
+    {
+        "label": "ModelBackend",
+        "importPath": "django.contrib.auth.backends",
+        "description": "django.contrib.auth.backends",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.backends",
+        "documentation": {}
+    },
+    {
+        "label": "ModelBackend",
+        "importPath": "django.contrib.auth.backends",
+        "description": "django.contrib.auth.backends",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.backends",
+        "documentation": {}
+    },
+    {
+        "label": "ComplaintListView",
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "isExtraImport": true,
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseForbidden",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "FileResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "UserApartment",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rent",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserApartment",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Support",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserApartment",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rent",
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "isExtraImport": true,
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequiredMixin",
+        "importPath": "django.contrib.auth.mixins",
+        "description": "django.contrib.auth.mixins",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "LoginRequiredMixin",
+        "importPath": "django.contrib.auth.mixins",
+        "description": "django.contrib.auth.mixins",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.mixins",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic.edit",
+        "description": "django.views.generic.edit",
+        "isExtraImport": true,
+        "detail": "django.views.generic.edit",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "method_decorator",
+        "importPath": "django.utils.decorators",
+        "description": "django.utils.decorators",
+        "isExtraImport": true,
+        "detail": "django.utils.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.validators",
+        "description": "django.contrib.auth.validators",
+        "detail": "django.contrib.auth.validators",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "AuthenticationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "RadioSelect",
+        "importPath": "django.forms.widgets",
+        "description": "django.forms.widgets",
+        "isExtraImport": true,
+        "detail": "django.forms.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "SelectDateWidget",
+        "importPath": "django.forms.widgets",
+        "description": "django.forms.widgets",
+        "isExtraImport": true,
+        "detail": "django.forms.widgets",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "importPath": "django.contrib.auth.views",
+        "description": "django.contrib.auth.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.views",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "stripe",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stripe",
+        "description": "stripe",
+        "detail": "stripe",
+        "documentation": {}
+    },
+    {
+        "label": "get_template",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "View",
+        "importPath": "django.views.generic.base",
+        "description": "django.views.generic.base",
+        "isExtraImport": true,
+        "detail": "django.views.generic.base",
+        "documentation": {}
+    },
+    {
+        "label": "canvas",
+        "importPath": "reportlab.pdfgen",
+        "description": "reportlab.pdfgen",
+        "isExtraImport": true,
+        "detail": "reportlab.pdfgen",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "arms.asgi",
+        "description": "arms.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "arms.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-c3x_r7^zf)^#wov4ia$p^iqag92q+$s6vj)+guib!gtv-zeim9'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-c3x_r7^zf)^#wov4ia$p^iqag92q+$s6vj)+guib!gtv-zeim9'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'dashboard.apps.DashboardConfig',",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'dashboard.apps.DashboardConfig',\n    'django_extensions',\n    'user',",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'arms.urls'",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "ROOT_URLCONF = 'arms.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR / 'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'arms.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.1/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS =[\n    BASE_DIR/\"staticfiles\",\n    os.path.join(BASE_DIR,'staticfiles'),",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS =[\n    BASE_DIR/\"staticfiles\",\n    os.path.join(BASE_DIR,'staticfiles'),\n]",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS =[\n    BASE_DIR/\"staticfiles\",\n    os.path.join(BASE_DIR,'staticfiles'),\n]\n# Default primary key field type",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS =[\n    BASE_DIR/\"staticfiles\",\n    os.path.join(BASE_DIR,'staticfiles'),\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS =[\n    BASE_DIR/\"staticfiles\",\n    os.path.join(BASE_DIR,'staticfiles'),\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL ='user.User'\nAUTHENTICATION_BACKENDS = [",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL ='user.User'\nAUTHENTICATION_BACKENDS = [\n    'user.custom_auth_backends.CustomUserTypeBackend', #custom backend\n    'django.contrib.auth.backends.ModelBackend',  # Default Django authentication backend\n]\nLOGIN_REDIRECT_URL ='/'\nLOGIN_URL = 'user:user-login'\nLOGOUT_URL = \"user:user-logout\"\nTAILWIND_APP_NAME = 'theme'",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTHENTICATION_BACKENDS",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "AUTHENTICATION_BACKENDS = [\n    'user.custom_auth_backends.CustomUserTypeBackend', #custom backend\n    'django.contrib.auth.backends.ModelBackend',  # Default Django authentication backend\n]\nLOGIN_REDIRECT_URL ='/'\nLOGIN_URL = 'user:user-login'\nLOGOUT_URL = \"user:user-logout\"\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL =\"mediafiles/\"\nMEDIA_ROOT = BASE_DIR/ \"mediafiles\"",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "LOGIN_URL = 'user:user-login'\nLOGOUT_URL = \"user:user-logout\"\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL =\"mediafiles/\"\nMEDIA_ROOT = BASE_DIR/ \"mediafiles\"\nINTERNAL_IPS=[\n    \"127.0.0.1\",\n]\nNPM_BIN_PATH = r\"C:\\Program Files (x86)\\nodejs\\npm.cmd\"",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_URL",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "LOGOUT_URL = \"user:user-logout\"\nTAILWIND_APP_NAME = 'theme'\nMEDIA_URL =\"mediafiles/\"\nMEDIA_ROOT = BASE_DIR/ \"mediafiles\"\nINTERNAL_IPS=[\n    \"127.0.0.1\",\n]\nNPM_BIN_PATH = r\"C:\\Program Files (x86)\\nodejs\\npm.cmd\"",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TAILWIND_APP_NAME",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "TAILWIND_APP_NAME = 'theme'\nMEDIA_URL =\"mediafiles/\"\nMEDIA_ROOT = BASE_DIR/ \"mediafiles\"\nINTERNAL_IPS=[\n    \"127.0.0.1\",\n]\nNPM_BIN_PATH = r\"C:\\Program Files (x86)\\nodejs\\npm.cmd\"",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "MEDIA_ROOT = BASE_DIR/ \"mediafiles\"\nINTERNAL_IPS=[\n    \"127.0.0.1\",\n]\nNPM_BIN_PATH = r\"C:\\Program Files (x86)\\nodejs\\npm.cmd\"",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "NPM_BIN_PATH",
+        "kind": 5,
+        "importPath": "arms.settings",
+        "description": "arms.settings",
+        "peekOfCode": "NPM_BIN_PATH = r\"C:\\Program Files (x86)\\nodejs\\npm.cmd\"",
+        "detail": "arms.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "arms.urls",
+        "description": "arms.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('dashboard.urls')),\n    path('', include('user.urls')),\n    path('',include('tenant.urls')),\n]\nif settings.DEBUG:\n    urlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)",
+        "detail": "arms.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "arms.wsgi",
+        "description": "arms.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "arms.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0001_initial",
+        "description": "dashboard.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Apartment',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "dashboard.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0002_alter_book_apartment_id_alter_rent_apartment_id_and_more",
+        "description": "dashboard.migrations.0002_alter_book_apartment_id_alter_rent_apartment_id_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0002_apartment_delete_tenant'),\n        ('dashboard', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='book',\n            name='apartment_id',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='tenant.apartment'),",
+        "detail": "dashboard.migrations.0002_alter_book_apartment_id_alter_rent_apartment_id_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0003_alter_book_username",
+        "description": "dashboard.migrations.0003_alter_book_username",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('dashboard', '0002_alter_book_apartment_id_alter_rent_apartment_id_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='book',\n            name='username',\n            field=models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),",
+        "detail": "dashboard.migrations.0003_alter_book_username",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0004_alter_rent_username",
+        "description": "dashboard.migrations.0004_alter_rent_username",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('dashboard', '0003_alter_book_username'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='rent',\n            name='username',\n            field=models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),",
+        "detail": "dashboard.migrations.0004_alter_rent_username",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0005_userapartment",
+        "description": "dashboard.migrations.0005_userapartment",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0009_alter_apartment_price'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('dashboard', '0004_alter_rent_username'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='UserApartment',\n            fields=[",
+        "detail": "dashboard.migrations.0005_userapartment",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0006_alter_userapartment_apartment_id_and_more",
+        "description": "dashboard.migrations.0006_alter_userapartment_apartment_id_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0009_alter_apartment_price'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('dashboard', '0005_userapartment'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='userapartment',\n            name='apartment_id',",
+        "detail": "dashboard.migrations.0006_alter_userapartment_apartment_id_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0007_alter_userapartment_apartment_id_and_more",
+        "description": "dashboard.migrations.0007_alter_userapartment_apartment_id_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0009_alter_apartment_price'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('dashboard', '0006_alter_userapartment_apartment_id_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='userapartment',\n            name='apartment_id',",
+        "detail": "dashboard.migrations.0007_alter_userapartment_apartment_id_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0008_alter_userapartment_apartment_id_and_more",
+        "description": "dashboard.migrations.0008_alter_userapartment_apartment_id_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0009_alter_apartment_price'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('dashboard', '0007_alter_userapartment_apartment_id_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='userapartment',\n            name='apartment_id',",
+        "detail": "dashboard.migrations.0008_alter_userapartment_apartment_id_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0009_alter_userapartment_apartment_id_and_more",
+        "description": "dashboard.migrations.0009_alter_userapartment_apartment_id_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('tenant', '0009_alter_apartment_price'),\n        ('dashboard', '0008_alter_userapartment_apartment_id_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='userapartment',\n            name='apartment_id',",
+        "detail": "dashboard.migrations.0009_alter_userapartment_apartment_id_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0010_alter_support_apartment_id",
+        "description": "dashboard.migrations.0010_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0011_alter_apartment_location'),\n        ('dashboard', '0009_alter_userapartment_apartment_id_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='tenant.apartment'),",
+        "detail": "dashboard.migrations.0010_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0011_alter_support_apartment_id",
+        "description": "dashboard.migrations.0011_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('dashboard', '0010_alter_support_apartment_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.CharField(max_length=10),\n        ),",
+        "detail": "dashboard.migrations.0011_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0012_alter_support_apartment_id",
+        "description": "dashboard.migrations.0012_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0011_alter_apartment_location'),\n        ('dashboard', '0011_alter_support_apartment_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='tenant.apartment'),",
+        "detail": "dashboard.migrations.0012_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0013_alter_support_apartment_id",
+        "description": "dashboard.migrations.0013_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('dashboard', '0012_alter_support_apartment_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.CharField(max_length=10),\n        ),",
+        "detail": "dashboard.migrations.0013_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0014_alter_support_apartment_id",
+        "description": "dashboard.migrations.0014_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0011_alter_apartment_location'),\n        ('dashboard', '0013_alter_support_apartment_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to='tenant.apartment'),",
+        "detail": "dashboard.migrations.0014_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "dashboard.migrations.0015_alter_support_apartment_id",
+        "description": "dashboard.migrations.0015_alter_support_apartment_id",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('dashboard', '0014_alter_support_apartment_id'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='support',\n            name='apartment_id',\n            field=models.CharField(max_length=10),\n        ),",
+        "detail": "dashboard.migrations.0015_alter_support_apartment_id",
+        "documentation": {}
+    },
+    {
+        "label": "add_commas",
+        "kind": 2,
+        "importPath": "dashboard.templatetags.custom_filters",
+        "description": "dashboard.templatetags.custom_filters",
+        "peekOfCode": "def add_commas(value):\n    if value is not None:\n        try:\n            value = int(value)\n            return \"{:,}\".format(value)\n        except (TypeError, ValueError):\n            pass\n    return value",
+        "detail": "dashboard.templatetags.custom_filters",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 5,
+        "importPath": "dashboard.templatetags.custom_filters",
+        "description": "dashboard.templatetags.custom_filters",
+        "peekOfCode": "register = template.Library()\n@register.filter\ndef add_commas(value):\n    if value is not None:\n        try:\n            value = int(value)\n            return \"{:,}\".format(value)\n        except (TypeError, ValueError):\n            pass\n    return value",
+        "detail": "dashboard.templatetags.custom_filters",
+        "documentation": {}
+    },
+    {
+        "label": "BookAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class BookAdmin(admin.ModelAdmin):    \n        list_display=('username','apartment_id')\nadmin.site.register(Book, BookAdmin)\nclass RentAdmin(admin.ModelAdmin):\n        list_display=('username','apartment_id',)\nadmin.site.register(Rent, RentAdmin)\nclass SupportAdmin(admin.ModelAdmin):\n        list_display=('name','email','phone_number','apartment_id','message')\nadmin.site.register(Support, SupportAdmin)\nclass UserApartmentAdmin(admin.ModelAdmin):        ",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "RentAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class RentAdmin(admin.ModelAdmin):\n        list_display=('username','apartment_id',)\nadmin.site.register(Rent, RentAdmin)\nclass SupportAdmin(admin.ModelAdmin):\n        list_display=('name','email','phone_number','apartment_id','message')\nadmin.site.register(Support, SupportAdmin)\nclass UserApartmentAdmin(admin.ModelAdmin):        \n        list_display=('username','apartment_id')\nadmin.site.register(UserApartment, UserApartmentAdmin)",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "SupportAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class SupportAdmin(admin.ModelAdmin):\n        list_display=('name','email','phone_number','apartment_id','message')\nadmin.site.register(Support, SupportAdmin)\nclass UserApartmentAdmin(admin.ModelAdmin):        \n        list_display=('username','apartment_id')\nadmin.site.register(UserApartment, UserApartmentAdmin)",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UserApartmentAdmin",
+        "kind": 6,
+        "importPath": "dashboard.admin",
+        "description": "dashboard.admin",
+        "peekOfCode": "class UserApartmentAdmin(admin.ModelAdmin):        \n        list_display=('username','apartment_id')\nadmin.site.register(UserApartment, UserApartmentAdmin)",
+        "detail": "dashboard.admin",
+        "documentation": {}
+    },
+    {
+        "label": "DashboardConfig",
+        "kind": 6,
+        "importPath": "dashboard.apps",
+        "description": "dashboard.apps",
+        "peekOfCode": "class DashboardConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'dashboard'",
+        "detail": "dashboard.apps",
+        "documentation": {}
+    },
+    {
+        "label": "SupportForm",
+        "kind": 6,
+        "importPath": "dashboard.forms",
+        "description": "dashboard.forms",
+        "peekOfCode": "class SupportForm(forms.ModelForm):\n    name = forms.CharField(widget=forms.TextInput(attrs={'class':'w-full rounded-lg border-gray-200 p-3 text-sm','placeholder':'Name'}),validators= [validate_name])\n    phone_number = forms.CharField(widget=forms.TextInput(attrs={'class': 'w-full rounded-lg border-gray-200 p-3 text-sm','placeholder':'Phone number'}),validators=[validate_phone_number])\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        # Query available apartments from the database\n        available_apartments = Apartment.objects.all().values_list('apartment_id', flat=True)\n        # Create a list of tuples for choices (apartment_id, apartment_id)\n        apartment_choices = [(apartment_id, apartment_id) for apartment_id in available_apartments]\n        # Update the choices for the 'apartment_id' field",
+        "detail": "dashboard.forms",
+        "documentation": {}
+    },
+    {
+        "label": "validate_phone_number",
+        "kind": 2,
+        "importPath": "dashboard.forms",
+        "description": "dashboard.forms",
+        "peekOfCode": "def validate_phone_number(value):\n    if not value.isdigit():\n        raise ValidationError(_('Invalid phone number. Please enter only digits.'))\n    if len(value) != 10:\n        raise ValidationError(_('Invalid phone number. The phone number must have 10 digits.'))\ndef validate_name(value):\n    if not re.match(r'^[a-zA-Z ]+$', value):\n        raise ValidationError(_('Invalid characters in the name.'))\nclass SupportForm(forms.ModelForm):\n    name = forms.CharField(widget=forms.TextInput(attrs={'class':'w-full rounded-lg border-gray-200 p-3 text-sm','placeholder':'Name'}),validators= [validate_name])",
+        "detail": "dashboard.forms",
+        "documentation": {}
+    },
+    {
+        "label": "validate_name",
+        "kind": 2,
+        "importPath": "dashboard.forms",
+        "description": "dashboard.forms",
+        "peekOfCode": "def validate_name(value):\n    if not re.match(r'^[a-zA-Z ]+$', value):\n        raise ValidationError(_('Invalid characters in the name.'))\nclass SupportForm(forms.ModelForm):\n    name = forms.CharField(widget=forms.TextInput(attrs={'class':'w-full rounded-lg border-gray-200 p-3 text-sm','placeholder':'Name'}),validators= [validate_name])\n    phone_number = forms.CharField(widget=forms.TextInput(attrs={'class': 'w-full rounded-lg border-gray-200 p-3 text-sm','placeholder':'Phone number'}),validators=[validate_phone_number])\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n        # Query available apartments from the database\n        available_apartments = Apartment.objects.all().values_list('apartment_id', flat=True)",
+        "detail": "dashboard.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Book",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Book(models.Model):\n    username = models.OneToOneField(User, on_delete=models.CASCADE)\n    apartment_id = models.ForeignKey(Apartment, on_delete=models.CASCADE)\n    def __str__(self):\n        return f\"{self.username.username}'s booking\"\nclass Rent(models.Model):\n    username = models.OneToOneField(User, on_delete=models.CASCADE)\n    apartment_id = models.ForeignKey(Apartment, on_delete=models.CASCADE)\n    def __str__(self):\n        return f\"{self.username.username}'s renting\"",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Rent",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Rent(models.Model):\n    username = models.OneToOneField(User, on_delete=models.CASCADE)\n    apartment_id = models.ForeignKey(Apartment, on_delete=models.CASCADE)\n    def __str__(self):\n        return f\"{self.username.username}'s renting\"\nclass UserApartment(models.Model):\n    username = models.OneToOneField(User, on_delete=models.CASCADE)\n    apartment_id = models.OneToOneField(Apartment, on_delete=models.CASCADE)\n    def __str__(self):\n        return f\"{self.username.username}'s apartment\"",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserApartment",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class UserApartment(models.Model):\n    username = models.OneToOneField(User, on_delete=models.CASCADE)\n    apartment_id = models.OneToOneField(Apartment, on_delete=models.CASCADE)\n    def __str__(self):\n        return f\"{self.username.username}'s apartment\"\n# class Complaint(models.Model):\n#     name = models.CharField(max_length=100, null=False)\n#     email = models.EmailField(max_length = 30)\n#     phone_number = models.CharField(max_length=20, null=False)\n#     apartment_id = models.CharField(null=False, max_length=10)",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "Support",
+        "kind": 6,
+        "importPath": "dashboard.models",
+        "description": "dashboard.models",
+        "peekOfCode": "class Support(models.Model):\n    name = models.CharField(max_length=100, null=False)\n    email = models.EmailField(max_length = 30)\n    phone_number = models.CharField(max_length=20, null=False)\n    apartment_id = models.CharField(null=False, max_length=10)\n    message = models.TextField()",
+        "detail": "dashboard.models",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_similarity",
+        "kind": 2,
+        "importPath": "dashboard.recommendation",
+        "description": "dashboard.recommendation",
+        "peekOfCode": "def calculate_similarity(apartment1, apartment2):\n    # Calculate similarity score based on attribute values\n    similarity_score = 0\n    if apartment1['location'] == apartment2['location']:\n        similarity_score += 1\n    if apartment1['floor'] == apartment2['floor']:\n        similarity_score += 1\n    if apartment1['bhk'] == apartment2['bhk']:\n        similarity_score += 1\n    if apartment1['parking'] == apartment2['parking']:",
+        "detail": "dashboard.recommendation",
+        "documentation": {}
+    },
+    {
+        "label": "get_recommended_apartments",
+        "kind": 2,
+        "importPath": "dashboard.recommendation",
+        "description": "dashboard.recommendation",
+        "peekOfCode": "def get_recommended_apartments(viewed_apartment, all_apartments):\n    similar_apartments = []\n    for apartment in all_apartments:\n        if apartment['id'] != viewed_apartment['id']:\n            similarity = calculate_similarity(viewed_apartment, apartment)\n            similar_apartments.append((apartment, similarity))\n    similar_apartments.sort(key=lambda x: x[1], reverse=True)\n    return similar_apartments",
+        "detail": "dashboard.recommendation",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "dashboard.urls",
+        "description": "dashboard.urls",
+        "peekOfCode": "app_name = \"dashboard\"\nurlpatterns = [\n    path('complaint/',views.SupportView.as_view(), name='dashboard-complaint'),\n    path('complaint/<int:pk>',views.removeComplaint, name='remove-complaint'),\n    path('',views.ListingView.as_view(), name='dashboard-listing'),\n    path('apartment/<int:apartment_id>/', views.apartment_details, name='apartment-details'),\n    path('book/<int:apartment_id>/<str:username>/', views.BookView.as_view(), name='dashboard-book'),\n    path('book/<int:pk>',views.removeBooked, name='remove-book'),\n    path('rent/<int:apartment_id>/<str:username>/', views.RentView.as_view(), name='dashboard-rent'),\n    path('rent/<int:pk>',views.removeRented, name='remove-rent'),",
+        "detail": "dashboard.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "dashboard.urls",
+        "description": "dashboard.urls",
+        "peekOfCode": "urlpatterns = [\n    path('complaint/',views.SupportView.as_view(), name='dashboard-complaint'),\n    path('complaint/<int:pk>',views.removeComplaint, name='remove-complaint'),\n    path('',views.ListingView.as_view(), name='dashboard-listing'),\n    path('apartment/<int:apartment_id>/', views.apartment_details, name='apartment-details'),\n    path('book/<int:apartment_id>/<str:username>/', views.BookView.as_view(), name='dashboard-book'),\n    path('book/<int:pk>',views.removeBooked, name='remove-book'),\n    path('rent/<int:apartment_id>/<str:username>/', views.RentView.as_view(), name='dashboard-rent'),\n    path('rent/<int:pk>',views.removeRented, name='remove-rent'),\n]",
+        "detail": "dashboard.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ListingView",
+        "kind": 6,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "class ListingView(ListView):\n    model = Apartment\n    template_name = \"dashboard/listing.html\"\n    context_object_name = \"apartment\"\n    def get_queryset(self):\n        # # Get all apartments\n        queryset = super().get_queryset()\n        # Get the list of apartment IDs from the UserApartment model\n        excluded_apartment_ids = UserApartment.objects.values_list(\n            \"apartment_id\", flat=True",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "SupportView",
+        "kind": 6,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "class SupportView(CreateView):\n    form_class = SupportForm\n    template_name = \"dashboard/complaint.html\"\n    success_url = reverse_lazy(\"dashboard:dashboard-listing\")\ndef removeComplaint(request, pk):\n    complaint = get_object_or_404(Support, pk=pk)\n    complaint.delete()\n    return redirect(\"tenant:tenant-complaint-list\")\nclass BookView(View):\n    def get(self, request, apartment_id=None, username=None):",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "BookView",
+        "kind": 6,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "class BookView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)\n                book = Book(username=user, apartment_id=apartment)\n                book.save()\n                return redirect(reverse(\"user:book-success\"))\n            except IntegrityError:",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "RentView",
+        "kind": 6,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "class RentView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)\n                rent = Rent(username=user, apartment_id=apartment)\n                rent.save()\n                return redirect(reverse(\"user:rent-success\"))\n            except IntegrityError:",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "preprocess_data",
+        "kind": 2,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "def preprocess_data(apartments):\n    vectorizer = cache.get(\"vectorizer\")\n    if vectorizer is None:\n        vectorizer = TfidfVectorizer()\n        descriptions = [apartment.description for apartment in apartments]\n        description_vectors = vectorizer.fit_transform(descriptions)\n        cache.set(\"vectorizer\", vectorizer, timeout=None)  # Cache the vectorizer indefinitely\n    else:\n        description_vectors = vectorizer.transform(\n            [apartment.description for apartment in apartments]",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_similarity",
+        "kind": 2,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "def calculate_similarity(user_preferences, vectorizer, description_vectors):\n    print(\"Description vector\")\n    print(description_vectors)\n    user_description = user_preferences.get(\"description\", \"\")  # Get the description from user preferences\n    user_description_vector = vectorizer.transform([user_description])\n    similarities = cosine_similarity(user_description_vector, description_vectors)\n    return similarities.flatten()\ndef extract_numeric_bhk(bhk_string):\n    numeric_part = bhk_string[:-3]  \n    return int(numeric_part)",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "extract_numeric_bhk",
+        "kind": 2,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "def extract_numeric_bhk(bhk_string):\n    numeric_part = bhk_string[:-3]  \n    return int(numeric_part)\ndef map_floor_to_integer(floor_value):\n    if floor_value == \"Ground\":\n        return 0\n    elif floor_value == \"First\":\n        return 1\n    elif floor_value == \"Second\":\n        return 2 ",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "map_floor_to_integer",
+        "kind": 2,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "def map_floor_to_integer(floor_value):\n    if floor_value == \"Ground\":\n        return 0\n    elif floor_value == \"First\":\n        return 1\n    elif floor_value == \"Second\":\n        return 2 \n    elif floor_value == \"Third\":\n        return 3\n    else:",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "recommend_apartments",
+        "kind": 2,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "def recommend_apartments(user_preferences, apartments, top_n=4):\n    vectorizer, description_vectors = preprocess_data(apartments)\n    similarities = calculate_similarity(\n        user_preferences, vectorizer, description_vectors\n    )\n    print(\"Similarities\")\n    print(similarities)\n    apartment_scores = [\n        (apartment, score) for apartment, score in zip(apartments, similarities)\n    ]",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "apartment_details",
+        "kind": 2,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "def apartment_details(request, apartment_id):\n    all_apartment = Apartment.objects.all()\n    apartment = get_object_or_404(Apartment, id=apartment_id)\n    user_preferences = {\n        \"description\": apartment.description,\n        \"bhk\": apartment.bhk,\n        \"floor\": apartment.floor,\n        \"parking\": apartment.parking,\n        \"wifi\": apartment.wifi,\n        \"swimming_pool\": apartment.swimming_pool,",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "removeComplaint",
+        "kind": 2,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "def removeComplaint(request, pk):\n    complaint = get_object_or_404(Support, pk=pk)\n    complaint.delete()\n    return redirect(\"tenant:tenant-complaint-list\")\nclass BookView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "removeBooked",
+        "kind": 2,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "def removeBooked(request, pk):\n    booked = get_object_or_404(Book, pk=pk)\n    booked.delete()\n    return redirect(\"tenant:tenant-book\")\nclass RentView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "removeRented",
+        "kind": 2,
+        "importPath": "dashboard.views copy",
+        "description": "dashboard.views copy",
+        "peekOfCode": "def removeRented(request, pk):\n    rented = get_object_or_404(Rent, pk=pk)\n    rented.delete()\n    return redirect(\"tenant:tenant-rent\")\n# class ListingView(ListView):",
+        "detail": "dashboard.views copy",
+        "documentation": {}
+    },
+    {
+        "label": "ListingView",
+        "kind": 6,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "class ListingView(ListView):\n    model = Apartment\n    template_name = \"dashboard/listing.html\"\n    context_object_name = \"apartment\"\n    def get_queryset(self):\n        # Get all apartments\n        queryset = super().get_queryset()\n        # Get the list of apartment IDs from the UserApartment model\n        excluded_apartment_ids = UserApartment.objects.values_list(\n            \"apartment_id\", flat=True",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "CategoricalTransformer",
+        "kind": 6,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "class CategoricalTransformer(BaseEstimator, TransformerMixin):\n    def fit(self, X, y=None):\n        self.enc = OneHotEncoder()\n        self.enc.fit(X)\n        return self\n    def transform(self, X):\n        return self.enc.transform(X)\ndef apartment_details(request, apartment_id):\n    apartment = get_object_or_404(Apartment, id=apartment_id)\n    all_apartments = Apartment.objects.all()",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "SupportView",
+        "kind": 6,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "class SupportView(CreateView):\n    form_class = SupportForm\n    template_name = \"dashboard/complaint.html\"\n    success_url = reverse_lazy(\"dashboard:dashboard-listing\")\ndef removeComplaint(request, pk):\n    complaint = get_object_or_404(Support, pk=pk)\n    complaint.delete()\n    return redirect(\"tenant:tenant-complaint-list\")\nclass BookView(View):\n    def get(self, request, apartment_id=None, username=None):",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "BookView",
+        "kind": 6,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "class BookView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)\n                book = Book(username=user, apartment_id=apartment)\n                book.save()\n                return redirect(reverse(\"user:book-success\"))\n            except IntegrityError:",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "RentView",
+        "kind": 6,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "class RentView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)\n                rent = Rent(username=user, apartment_id=apartment)\n                rent.save()\n                return redirect(reverse(\"user:rent-success\"))\n            except IntegrityError:",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "apartment_details",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def apartment_details(request, apartment_id):\n    apartment = get_object_or_404(Apartment, id=apartment_id)\n    all_apartments = Apartment.objects.all()\n    apartments_data = [apt for apt in all_apartments if apt.location == apartment.location]\n    categorical_indices = [0, 1, 2, 3, 4, 5, 6]\n    pipeline = Pipeline([\n        ('transformer', ColumnTransformer([\n            ('categorical', CategoricalTransformer(), categorical_indices)\n        ], remainder='passthrough')),\n    ])",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "removeComplaint",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def removeComplaint(request, pk):\n    complaint = get_object_or_404(Support, pk=pk)\n    complaint.delete()\n    return redirect(\"tenant:tenant-complaint-list\")\nclass BookView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "removeBooked",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def removeBooked(request, pk):\n    booked = get_object_or_404(Book, pk=pk)\n    booked.delete()\n    return redirect(\"tenant:tenant-book\")\nclass RentView(View):\n    def get(self, request, apartment_id=None, username=None):\n        if apartment_id and username:\n            try:\n                apartment = get_object_or_404(Apartment, id=apartment_id)\n                user = get_object_or_404(User, username=username)",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "removeRented",
+        "kind": 2,
+        "importPath": "dashboard.views",
+        "description": "dashboard.views",
+        "peekOfCode": "def removeRented(request, pk):\n    rented = get_object_or_404(Rent, pk=pk)\n    rented.delete()\n    return redirect(\"tenant:tenant-rent\")\n# class ListingView(ListView):",
+        "detail": "dashboard.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0001_initial",
+        "description": "tenant.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Tenant',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('username', models.CharField(max_length=100, unique=True)),",
+        "detail": "tenant.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0002_apartment_delete_tenant",
+        "description": "tenant.migrations.0002_apartment_delete_tenant",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0001_initial'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Apartment',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('apartment_id', models.IntegerField(unique=True)),",
+        "detail": "tenant.migrations.0002_apartment_delete_tenant",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0003_tenant",
+        "description": "tenant.migrations.0003_tenant",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0002_apartment_delete_tenant'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Tenant',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('username', models.CharField(max_length=100, unique=True)),",
+        "detail": "tenant.migrations.0003_tenant",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0004_tenant_user",
+        "description": "tenant.migrations.0004_tenant_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('tenant', '0003_tenant'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='tenant',\n            name='user',\n            field=models.OneToOneField(default=None, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),",
+        "detail": "tenant.migrations.0004_tenant_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0005_alter_tenant_user",
+        "description": "tenant.migrations.0005_alter_tenant_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('tenant', '0004_tenant_user'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='tenant',\n            name='user',\n            field=models.OneToOneField(default=None, null=True, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),",
+        "detail": "tenant.migrations.0005_alter_tenant_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0006_alter_tenant_user",
+        "description": "tenant.migrations.0006_alter_tenant_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('tenant', '0005_alter_tenant_user'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='tenant',\n            name='user',\n            field=models.OneToOneField(default=0, null=True, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),",
+        "detail": "tenant.migrations.0006_alter_tenant_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0007_alter_tenant_user",
+        "description": "tenant.migrations.0007_alter_tenant_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('tenant', '0006_alter_tenant_user'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='tenant',\n            name='user',\n            field=models.OneToOneField(default=0, on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),",
+        "detail": "tenant.migrations.0007_alter_tenant_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0008_delete_tenant",
+        "description": "tenant.migrations.0008_delete_tenant",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0007_alter_tenant_user'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='Tenant',\n        ),\n    ]",
+        "detail": "tenant.migrations.0008_delete_tenant",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0009_alter_apartment_price",
+        "description": "tenant.migrations.0009_alter_apartment_price",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0008_delete_tenant'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='apartment',\n            name='price',\n            field=models.PositiveIntegerField(),\n        ),",
+        "detail": "tenant.migrations.0009_alter_apartment_price",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0010_apartment_is_available",
+        "description": "tenant.migrations.0010_apartment_is_available",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0009_alter_apartment_price'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='apartment',\n            name='is_available',\n            field=models.BooleanField(default=True),\n        ),",
+        "detail": "tenant.migrations.0010_apartment_is_available",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0011_alter_apartment_location",
+        "description": "tenant.migrations.0011_alter_apartment_location",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0010_apartment_is_available'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='apartment',\n            name='location',\n            field=models.CharField(choices=[('Kathmandu', 'Kathmandu'), ('Bhaktapur', 'Bhaktapur'), ('Lalitpur', 'Lalitpur'), ('Itahari', 'Itahari'), ('Butwal', 'Butwal'), ('Birtamode', 'Birtamode')], max_length=100),\n        ),",
+        "detail": "tenant.migrations.0011_alter_apartment_location",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0012_remove_apartment_is_available_apartment_bhk_and_more",
+        "description": "tenant.migrations.0012_remove_apartment_is_available_apartment_bhk_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0011_alter_apartment_location'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='apartment',\n            name='is_available',\n        ),\n        migrations.AddField(",
+        "detail": "tenant.migrations.0012_remove_apartment_is_available_apartment_bhk_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0013_alter_apartment_bhk_alter_apartment_floor",
+        "description": "tenant.migrations.0013_alter_apartment_bhk_alter_apartment_floor",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0012_remove_apartment_is_available_apartment_bhk_and_more'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='apartment',\n            name='bhk',\n            field=models.CharField(choices=[('1BHK', '1BHK'), ('2BHK', '2BHK'), ('3BHK', '3BHK')], max_length=100),\n        ),",
+        "detail": "tenant.migrations.0013_alter_apartment_bhk_alter_apartment_floor",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0014_apartment_ac",
+        "description": "tenant.migrations.0014_apartment_ac",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0013_alter_apartment_bhk_alter_apartment_floor'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='apartment',\n            name='ac',\n            field=models.BooleanField(default=False),\n        ),",
+        "detail": "tenant.migrations.0014_apartment_ac",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0015_alter_apartment_floor",
+        "description": "tenant.migrations.0015_alter_apartment_floor",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0014_apartment_ac'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='apartment',\n            name='floor',\n            field=models.CharField(choices=[('Ground', 'Ground'), ('First', 'First'), ('Second', 'Second'), ('Third', 'Third')], max_length=100),\n        ),",
+        "detail": "tenant.migrations.0015_alter_apartment_floor",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0016_userpreferences",
+        "description": "tenant.migrations.0016_userpreferences",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0015_alter_apartment_floor'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='UserPreferences',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('location', models.CharField(max_length=100)),",
+        "detail": "tenant.migrations.0016_userpreferences",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0017_delete_userpreferences",
+        "description": "tenant.migrations.0017_delete_userpreferences",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0016_userpreferences'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='UserPreferences',\n        ),\n    ]",
+        "detail": "tenant.migrations.0017_delete_userpreferences",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0018_userpreferences",
+        "description": "tenant.migrations.0018_userpreferences",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('tenant', '0017_delete_userpreferences'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='UserPreferences',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "tenant.migrations.0018_userpreferences",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0019_alter_apartment_location",
+        "description": "tenant.migrations.0019_alter_apartment_location",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0018_userpreferences'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='apartment',\n            name='location',\n            field=models.CharField(choices=[('Kathmandu', 'Kathmandu'), ('Itahari', 'Itahari'), ('Butwal', 'Butwal')], max_length=100),\n        ),",
+        "detail": "tenant.migrations.0019_alter_apartment_location",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0020_alter_apartment_location",
+        "description": "tenant.migrations.0020_alter_apartment_location",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0019_alter_apartment_location'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='apartment',\n            name='location',\n            field=models.CharField(choices=[('Kathmandu', 'Kathmandu'), ('Itahari', 'Itahari'), ('Butwal', 'Butwal'), ('Gaushala', 'Gaushala'), ('Baneshwor', 'Baneshwor'), ('Maharajgunj', 'Maharajgunj')], max_length=100),\n        ),",
+        "detail": "tenant.migrations.0020_alter_apartment_location",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "tenant.migrations.0021_alter_apartment_location",
+        "description": "tenant.migrations.0021_alter_apartment_location",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0020_alter_apartment_location'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='apartment',\n            name='location',\n            field=models.CharField(choices=[('Gaushala', 'Gaushala'), ('Baneshwor', 'Baneshwor'), ('Maharajgunj', 'Maharajgunj')], max_length=100),\n        ),",
+        "detail": "tenant.migrations.0021_alter_apartment_location",
+        "documentation": {}
+    },
+    {
+        "label": "ApartmentAdmin",
+        "kind": 6,
+        "importPath": "tenant.admin",
+        "description": "tenant.admin",
+        "peekOfCode": "class ApartmentAdmin(admin.ModelAdmin):\n        list_display=('apartment_id','location','price','description','image','bhk','floor','parking','wifi','swimming_pool','ac')\nadmin.site.register(Apartment,ApartmentAdmin)",
+        "detail": "tenant.admin",
+        "documentation": {}
+    },
+    {
+        "label": "TenantConfig",
+        "kind": 6,
+        "importPath": "tenant.apps",
+        "description": "tenant.apps",
+        "peekOfCode": "class TenantConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'tenant'",
+        "detail": "tenant.apps",
+        "documentation": {}
+    },
+    {
+        "label": "TenantBackend",
+        "kind": 6,
+        "importPath": "tenant.backends",
+        "description": "tenant.backends",
+        "peekOfCode": "class TenantBackend(ModelBackend):\n    def authenticate(self, request, username=None, password=None, **kwargs):\n        try:\n            tenant = Tenant.objects.get(username=username)\n            if tenant.password == password:\n                user = tenant.user  # Assuming the Tenant model has a OneToOneField to the User model\n                return user\n        except Tenant.DoesNotExist:\n            pass\n        return None",
+        "detail": "tenant.backends",
+        "documentation": {}
+    },
+    {
+        "label": "ApartmentForm",
+        "kind": 6,
+        "importPath": "tenant.forms",
+        "description": "tenant.forms",
+        "peekOfCode": "class ApartmentForm(forms.ModelForm):\n    parking = forms.BooleanField(required=False)\n    wifi = forms.BooleanField(required=False)\n    swimming_pool = forms.BooleanField(required=False)\n    ac =forms.BooleanField(required=False)\n    class Meta:\n        model = Apartment\n        fields = ('apartment_id','price', 'location','bhk','floor','parking','wifi','swimming_pool','ac','description','image')\n        widgets = {\n            'bhk' : forms.Select(attrs={'class': 'mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm'}),           ",
+        "detail": "tenant.forms",
+        "documentation": {}
+    },
+    {
+        "label": "ApartmentEditForm",
+        "kind": 6,
+        "importPath": "tenant.forms",
+        "description": "tenant.forms",
+        "peekOfCode": "class ApartmentEditForm(forms.ModelForm):\n    class Meta:\n        model = Apartment\n        fields = (\n            \"apartment_id\",\n            \"price\",\n            \"location\",\n            \"bhk\",\n            \"floor\",\n            \"parking\",",
+        "detail": "tenant.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Apartment",
+        "kind": 6,
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "peekOfCode": "class Apartment(models.Model):\n    LOCATION_CHOICES = [\n        ('Gaushala', 'Gaushala'),\n        ('Baneshwor', 'Baneshwor'),\n        ('Maharajgunj', 'Maharajgunj'),\n    ]\n    BHK_CHOICES = [\n        ('1BHK','1BHK'),\n        ('2BHK','2BHK'),\n        ('3BHK','3BHK'),",
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "UserPreferences",
+        "kind": 6,
+        "importPath": "tenant.models",
+        "description": "tenant.models",
+        "peekOfCode": "class UserPreferences(models.Model):\n    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)\n    location = models.CharField(max_length=100)\n    price = models.PositiveIntegerField()\n    bhk = models.CharField(max_length=100)\n    floor = models.CharField(max_length=100)\n    parking = models.BooleanField(default=False)\n    wifi = models.BooleanField(default=False)\n    swimming_pool = models.BooleanField(default=False)\n    ac = models.BooleanField(default=False)",
+        "detail": "tenant.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "tenant.urls",
+        "description": "tenant.urls",
+        "peekOfCode": "app_name = \"tenant\"\nurlpatterns = [\n    path('tenant/', views.tenantView, name='tenant-home'),\n    path('upload/',views.UploadView.as_view(), name='tenant-upload'),\n    path('booked/', views.BookedView, name='tenant-book'),\n    path('rented/', views.RentedView, name='tenant-rent'),\n    path('complaint_list/',views.ComplaintListView,name='tenant-complaint-list'),\n    path('accept_apartment/<str:uname>/<int:aid>/', views.UserApartmentRequestView, name='tenant-accept-apartment'),\n    path('apartment_list/',views.ApartmentListView.as_view(),name='tenant-apartment-list'),\n    path('aparmanent_list/<int:pk>',views.removeApartment, name='remove-apartment'),",
+        "detail": "tenant.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "tenant.urls",
+        "description": "tenant.urls",
+        "peekOfCode": "urlpatterns = [\n    path('tenant/', views.tenantView, name='tenant-home'),\n    path('upload/',views.UploadView.as_view(), name='tenant-upload'),\n    path('booked/', views.BookedView, name='tenant-book'),\n    path('rented/', views.RentedView, name='tenant-rent'),\n    path('complaint_list/',views.ComplaintListView,name='tenant-complaint-list'),\n    path('accept_apartment/<str:uname>/<int:aid>/', views.UserApartmentRequestView, name='tenant-accept-apartment'),\n    path('apartment_list/',views.ApartmentListView.as_view(),name='tenant-apartment-list'),\n    path('aparmanent_list/<int:pk>',views.removeApartment, name='remove-apartment'),\n    path('user_apartment/',views.UserApartmentView,name='tenant-user-apartment'),",
+        "detail": "tenant.urls",
+        "documentation": {}
+    },
+    {
+        "label": "ApartmentListView",
+        "kind": 6,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "class ApartmentListView(ListView):\n    model = Apartment\n    template_name = 'tenant/apartment_list.html'\n    context_object_name = \"apartment\"\ndef removeApartment(request,pk):\n    apt = get_object_or_404(Apartment, pk=pk)\n    apt.delete()\n    return redirect('tenant:tenant-apartment-list')\nclass UploadView(CreateView):\n    form_class = ApartmentForm",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "UploadView",
+        "kind": 6,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "class UploadView(CreateView):\n    form_class = ApartmentForm\n    template_name ='tenant/upload.html'\n    success_url = reverse_lazy('tenant:tenant-home')\ndef BookedView(request):\n    books = Book.objects.all()\n    return render(request, 'tenant/booked.html', {'books': books})\n# class BookedView(ListView):\n#     model = Book\n#     template_name = 'tenant/booked.html'",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "EditApartmentView",
+        "kind": 6,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "class EditApartmentView(LoginRequiredMixin, UpdateView):\n    model = Apartment\n    form_class = ApartmentEditForm\n    template_name = \"tenant/edit_apartment.html\"\n    success_url = reverse_lazy(\"tenant:tenant-apartment-list\")\n    def get_context_data(self, **kwargs):\n        context = super().get_context_data(**kwargs)\n        return context\n    def form_valid(self, form):\n        return super().form_valid(form)",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "admin_only",
+        "kind": 2,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "def admin_only(view_func):\n    def wrapped_view(request, *args, **kwargs):\n        if request.user.is_authenticated and request.user.is_admin:\n            return view_func(request, *args, **kwargs)\n        else:\n            return HttpResponseForbidden(\"You don't have permission to access this page.\")\n    return wrapped_view\n@login_required \n@admin_only\ndef tenantView(request):",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "tenantView",
+        "kind": 2,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "def tenantView(request):\n    return render(request, 'tenant/tenant.html')\nclass ApartmentListView(ListView):\n    model = Apartment\n    template_name = 'tenant/apartment_list.html'\n    context_object_name = \"apartment\"\ndef removeApartment(request,pk):\n    apt = get_object_or_404(Apartment, pk=pk)\n    apt.delete()\n    return redirect('tenant:tenant-apartment-list')",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "removeApartment",
+        "kind": 2,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "def removeApartment(request,pk):\n    apt = get_object_or_404(Apartment, pk=pk)\n    apt.delete()\n    return redirect('tenant:tenant-apartment-list')\nclass UploadView(CreateView):\n    form_class = ApartmentForm\n    template_name ='tenant/upload.html'\n    success_url = reverse_lazy('tenant:tenant-home')\ndef BookedView(request):\n    books = Book.objects.all()",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "BookedView",
+        "kind": 2,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "def BookedView(request):\n    books = Book.objects.all()\n    return render(request, 'tenant/booked.html', {'books': books})\n# class BookedView(ListView):\n#     model = Book\n#     template_name = 'tenant/booked.html'\n#     context_object_name = \"books\"\n#     def get_queryset(self):\n#         # Get all apartments\n#         queryset = super().get_queryset()",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "RentedView",
+        "kind": 2,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "def RentedView(request): \n    rents = Rent.objects.all()\n    return render(request, 'tenant/rented.html', {'rents': rents})\n# def UserApartmentRequestView(request,uname,aid):\n#     def get(self, request, apartment_id=None, username=None):\n#         if apartment_id and username:\n#             apartment = get_object_or_404(Apartment, id=apartment_id)\n#             user = get_object_or_404(User, username=username)\n#             apt = UserApartment(username=user, apartment_id=apartment)\n#             apt.save()",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserApartmentRequestView",
+        "kind": 2,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "def UserApartmentRequestView(request, uname, aid):\n    if request.method == 'POST':\n        # Get the values from the submitted form\n        username = uname\n        apartment_id = aid\n        user = User.objects.get(username=username)\n        apartment = Apartment.objects.get(apartment_id=apartment_id)\n        # Create a new UserApartment instance and save it\n        user_apartment = UserApartment(username=user, apartment_id=apartment)\n        user_apartment.save()",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "removeUserApartment",
+        "kind": 2,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "def removeUserApartment(request,pk):\n    user_apt = get_object_or_404(UserApartment, pk=pk)\n    user_apt.delete()\n    return redirect('tenant:tenant-user-apartment')\ndef UserApartmentView(request):\n    apts = UserApartment.objects.all()\n    return render(request,'tenant/user_apartment.html',{'apts':apts})\ndef ComplaintListView(request):\n    complaints = Support.objects.all()\n    return render(request,'tenant/complaint_list.html',{'complaints':complaints})",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserApartmentView",
+        "kind": 2,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "def UserApartmentView(request):\n    apts = UserApartment.objects.all()\n    return render(request,'tenant/user_apartment.html',{'apts':apts})\ndef ComplaintListView(request):\n    complaints = Support.objects.all()\n    return render(request,'tenant/complaint_list.html',{'complaints':complaints})\nclass EditApartmentView(LoginRequiredMixin, UpdateView):\n    model = Apartment\n    form_class = ApartmentEditForm\n    template_name = \"tenant/edit_apartment.html\"",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "ComplaintListView",
+        "kind": 2,
+        "importPath": "tenant.views",
+        "description": "tenant.views",
+        "peekOfCode": "def ComplaintListView(request):\n    complaints = Support.objects.all()\n    return render(request,'tenant/complaint_list.html',{'complaints':complaints})\nclass EditApartmentView(LoginRequiredMixin, UpdateView):\n    model = Apartment\n    form_class = ApartmentEditForm\n    template_name = \"tenant/edit_apartment.html\"\n    success_url = reverse_lazy(\"tenant:tenant-apartment-list\")\n    def get_context_data(self, **kwargs):\n        context = super().get_context_data(**kwargs)",
+        "detail": "tenant.views",
+        "documentation": {}
+    },
+    {
+        "label": "ThemeConfig",
+        "kind": 6,
+        "importPath": "theme.apps",
+        "description": "theme.apps",
+        "peekOfCode": "class ThemeConfig(AppConfig):\n    name = 'theme'",
+        "detail": "theme.apps",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0001_initial",
+        "description": "user.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "user.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0002_user_date_of_birth_user_gender",
+        "description": "user.migrations.0002_user_date_of_birth_user_gender",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0001_initial'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='user',\n            name='date_of_birth',\n            field=models.DateField(null=True),\n        ),",
+        "detail": "user.migrations.0002_user_date_of_birth_user_gender",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0003_apartment",
+        "description": "user.migrations.0003_apartment",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0002_user_date_of_birth_user_gender'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Apartment',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('apartment_id', models.IntegerField(unique=True)),",
+        "detail": "user.migrations.0003_apartment",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0004_delete_apartment",
+        "description": "user.migrations.0004_delete_apartment",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0003_apartment'),\n    ]\n    operations = [\n        migrations.DeleteModel(\n            name='Apartment',\n        ),\n    ]",
+        "detail": "user.migrations.0004_delete_apartment",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0005_payment",
+        "description": "user.migrations.0005_payment",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('tenant', '0011_alter_apartment_location'),\n        ('user', '0004_delete_apartment'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Payment',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "user.migrations.0005_payment",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0006_user_is_user",
+        "description": "user.migrations.0006_user_is_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0005_payment'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='user',\n            name='is_user',\n            field=models.BooleanField(default=True),\n        ),",
+        "detail": "user.migrations.0006_user_is_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0007_remove_user_gender",
+        "description": "user.migrations.0007_remove_user_gender",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0006_user_is_user'),\n    ]\n    operations = [\n        migrations.RemoveField(\n            model_name='user',\n            name='gender',\n        ),\n    ]",
+        "detail": "user.migrations.0007_remove_user_gender",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0008_user_gender_user_is_admin",
+        "description": "user.migrations.0008_user_gender_user_is_admin",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0007_remove_user_gender'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='user',\n            name='gender',\n            field=models.CharField(max_length=10, null=True),\n        ),",
+        "detail": "user.migrations.0008_user_gender_user_is_admin",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0009_alter_user_first_name_alter_user_last_name",
+        "description": "user.migrations.0009_alter_user_first_name_alter_user_last_name",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0008_user_gender_user_is_admin'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='user',\n            name='first_name',\n            field=models.CharField(max_length=20),\n        ),",
+        "detail": "user.migrations.0009_alter_user_first_name_alter_user_last_name",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "user.migrations.0010_alter_user_email",
+        "description": "user.migrations.0010_alter_user_email",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('user', '0009_alter_user_first_name_alter_user_last_name'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='user',\n            name='email',\n            field=models.EmailField(max_length=30),\n        ),",
+        "detail": "user.migrations.0010_alter_user_email",
+        "documentation": {}
+    },
+    {
+        "label": "UserAdmin",
+        "kind": 6,
+        "importPath": "user.admin",
+        "description": "user.admin",
+        "peekOfCode": "class UserAdmin(admin.ModelAdmin):\n        list_display=('username','email','first_name','last_name','phone_number','date_of_birth','gender')\nadmin.site.register(User, UserAdmin)\nclass PaymentAdmin(admin.ModelAdmin):\n        list_display=('user','apartment','amount','timestamp')\nadmin.site.register(Payment, PaymentAdmin)",
+        "detail": "user.admin",
+        "documentation": {}
+    },
+    {
+        "label": "PaymentAdmin",
+        "kind": 6,
+        "importPath": "user.admin",
+        "description": "user.admin",
+        "peekOfCode": "class PaymentAdmin(admin.ModelAdmin):\n        list_display=('user','apartment','amount','timestamp')\nadmin.site.register(Payment, PaymentAdmin)",
+        "detail": "user.admin",
+        "documentation": {}
+    },
+    {
+        "label": "admin.site.site_header",
+        "kind": 5,
+        "importPath": "user.admin",
+        "description": "user.admin",
+        "peekOfCode": "admin.site.site_header = 'Apartment Rental'\nclass UserAdmin(admin.ModelAdmin):\n        list_display=('username','email','first_name','last_name','phone_number','date_of_birth','gender')\nadmin.site.register(User, UserAdmin)\nclass PaymentAdmin(admin.ModelAdmin):\n        list_display=('user','apartment','amount','timestamp')\nadmin.site.register(Payment, PaymentAdmin)",
+        "detail": "user.admin",
+        "documentation": {}
+    },
+    {
+        "label": "UserConfig",
+        "kind": 6,
+        "importPath": "user.apps",
+        "description": "user.apps",
+        "peekOfCode": "class UserConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'user'",
+        "detail": "user.apps",
+        "documentation": {}
+    },
+    {
+        "label": "CustomUserTypeBackend",
+        "kind": 6,
+        "importPath": "user.custom_auth_backends",
+        "description": "user.custom_auth_backends",
+        "peekOfCode": "class CustomUserTypeBackend(ModelBackend):\n    def authenticate(self, request, username=None, password=None, **kwargs):\n        try:\n            user = User.objects.get(username=username)\n            # Check if the user is an admin\n            if user.is_admin and user.check_password(password):\n                return user\n            # If not an admin, assume the user is a regular user\n            if not user.is_admin and user.check_password(password):\n                return user",
+        "detail": "user.custom_auth_backends",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "user.custom_auth_backends",
+        "description": "user.custom_auth_backends",
+        "peekOfCode": "User = get_user_model()\nclass CustomUserTypeBackend(ModelBackend):\n    def authenticate(self, request, username=None, password=None, **kwargs):\n        try:\n            user = User.objects.get(username=username)\n            # Check if the user is an admin\n            if user.is_admin and user.check_password(password):\n                return user\n            # If not an admin, assume the user is a regular user\n            if not user.is_admin and user.check_password(password):",
+        "detail": "user.custom_auth_backends",
+        "documentation": {}
+    },
+    {
+        "label": "UserForm",
+        "kind": 6,
+        "importPath": "user.forms",
+        "description": "user.forms",
+        "peekOfCode": "class UserForm(UserCreationForm):\n    # def save(self, commit=True):\n    #     user = super().save(commit=False)\n    #     user.set_password(self.cleaned_data['password'])\n    #     confirm_password = self.cleaned_data.get('confirm_password')\n    #     if confirm_password:\n    #         user.set_password(confirm_password)\n    #     if commit:\n    #         user.save()\n    #     return user",
+        "detail": "user.forms",
+        "documentation": {}
+    },
+    {
+        "label": "LoginForm",
+        "kind": 6,
+        "importPath": "user.forms",
+        "description": "user.forms",
+        "peekOfCode": "class LoginForm(AuthenticationForm):\n    class Meta:\n        model = User\n        fields = [\n            \"username\",\n            \"password\",\n        ]\n        widgets = {\n            'username': forms.TextInput(attrs={'class': 'mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm'}),\n            'password': forms.PasswordInput(attrs={'class': 'mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm custom-password-field'}),",
+        "detail": "user.forms",
+        "documentation": {}
+    },
+    {
+        "label": "EditProfileForm",
+        "kind": 6,
+        "importPath": "user.forms",
+        "description": "user.forms",
+        "peekOfCode": "class EditProfileForm(UserChangeForm):\n    class Meta:\n        model = get_user_model()\n        fields = (\n            \"first_name\",\n            \"last_name\",\n            \"email\",\n            \"phone_number\",\n        )\n    def __init__(self, *args, **kwargs):",
+        "detail": "user.forms",
+        "documentation": {}
+    },
+    {
+        "label": "validate_password",
+        "kind": 2,
+        "importPath": "user.forms",
+        "description": "user.forms",
+        "peekOfCode": "def validate_password(value):\n    # Check password length\n    if len(value) < 8:\n        raise ValidationError(\"Password must be 8 character which contain at least one uppercase letter, one lowercase letter, one digit, and one special character.\")\n    # Check password complexity\n    if not any(char.isdigit() for char in value) or not any(char.isupper() for char in value) or not any(char.islower() for char in value) or not any(char in '!@#$%^&*()_+.,/?><~`' for char in value):\n        raise ValidationError(\"Password must be 8 character which contain at least one uppercase letter, one lowercase letter, one digit, and one special character.\")\ndef validate_phone_number(value):\n    if not value.isdigit():\n        raise ValidationError(_('Invalid phone number. Please enter only digits.'))",
+        "detail": "user.forms",
+        "documentation": {}
+    },
+    {
+        "label": "validate_phone_number",
+        "kind": 2,
+        "importPath": "user.forms",
+        "description": "user.forms",
+        "peekOfCode": "def validate_phone_number(value):\n    if not value.isdigit():\n        raise ValidationError(_('Invalid phone number. Please enter only digits.'))\n    if len(value) != 10:\n        raise ValidationError(_('Invalid phone number. The phone number must have 10 digits.'))\ndef validate_name(value):\n    if not re.match(r'^[a-zA-Z]+$', value):\n        raise ValidationError(_('Invalid characters in the name.'))\nclass UserForm(UserCreationForm):\n    # def save(self, commit=True):",
+        "detail": "user.forms",
+        "documentation": {}
+    },
+    {
+        "label": "validate_name",
+        "kind": 2,
+        "importPath": "user.forms",
+        "description": "user.forms",
+        "peekOfCode": "def validate_name(value):\n    if not re.match(r'^[a-zA-Z]+$', value):\n        raise ValidationError(_('Invalid characters in the name.'))\nclass UserForm(UserCreationForm):\n    # def save(self, commit=True):\n    #     user = super().save(commit=False)\n    #     user.set_password(self.cleaned_data['password'])\n    #     confirm_password = self.cleaned_data.get('confirm_password')\n    #     if confirm_password:\n    #         user.set_password(confirm_password)",
+        "detail": "user.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "user.models",
+        "description": "user.models",
+        "peekOfCode": "class User(AbstractUser):\n    phone_number = models.CharField(max_length=20, null=False, unique=True)\n    date_of_birth = models.DateField(null=True)\n    gender = models.CharField(max_length=10,null=True) \n    first_name = models.CharField(max_length=20,null=False)\n    last_name = models.CharField(max_length=20, null= False)\n    email = models.EmailField(max_length=30, null=False)\n    is_admin = models.BooleanField(default=False)\n    is_user = models.BooleanField(default=True)\nclass Payment(models.Model):",
+        "detail": "user.models",
+        "documentation": {}
+    },
+    {
+        "label": "Payment",
+        "kind": 6,
+        "importPath": "user.models",
+        "description": "user.models",
+        "peekOfCode": "class Payment(models.Model):\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    apartment = models.ForeignKey(Apartment, on_delete=models.CASCADE)\n    amount = models.DecimalField(max_digits=10, decimal_places=2)\n    timestamp = models.DateTimeField(auto_now_add=True)\n    def __str__(self):\n        return f\"Payment #{self.pk}\"",
+        "detail": "user.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "user.urls",
+        "description": "user.urls",
+        "peekOfCode": "app_name = 'user'\nurlpatterns = [\n    # path('register/',views.register,name='user-register'),\n    path('register/', views.RegisterView.as_view(), name='user-register'),\n    path('login/',views.MyLoginView.as_view(),name=\"user-login\"),\n    path('logout/',views.MyLogoutView.as_view(),name=\"user-logout\"),\n    path('profile/',views.ProfileView,name=\"user-profile\"),\n    path('editprofile/',views.EditProfileView.as_view(),name=\"user-editprofile\"),\n    path('user-apartment/<int:apartment_id>/', views.user_apartment_detail, name='user-apartment-detail'),\n    path('book_success/', views.book_success_view, name='book-success'),",
+        "detail": "user.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "user.urls",
+        "description": "user.urls",
+        "peekOfCode": "urlpatterns = [\n    # path('register/',views.register,name='user-register'),\n    path('register/', views.RegisterView.as_view(), name='user-register'),\n    path('login/',views.MyLoginView.as_view(),name=\"user-login\"),\n    path('logout/',views.MyLogoutView.as_view(),name=\"user-logout\"),\n    path('profile/',views.ProfileView,name=\"user-profile\"),\n    path('editprofile/',views.EditProfileView.as_view(),name=\"user-editprofile\"),\n    path('user-apartment/<int:apartment_id>/', views.user_apartment_detail, name='user-apartment-detail'),\n    path('book_success/', views.book_success_view, name='book-success'),\n    path('book_fail/', views.book_fail_view, name='book-fail'),",
+        "detail": "user.urls",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "kind": 6,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "class RegisterView(CreateView):\n    template_name = 'user/register.html'\n    form_class = UserForm\n    success_url = reverse_lazy('user:user-login')\n# class MyLoginView(LoginView):\n#     form_class = LoginForm\n#     template_name = 'user/login.html'\nclass MyLoginView(LoginView):\n    template_name = \"user/login.html\"\n    form_class = LoginForm",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "MyLoginView",
+        "kind": 6,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "class MyLoginView(LoginView):\n    template_name = \"user/login.html\"\n    form_class = LoginForm\n    def form_valid(self, form):\n        # Log the user in using Django's built-in authentication\n        response = super().form_valid(form)\n        # Redirect the user based on their role (admin or user)\n        user = self.request.user\n        if user.is_superuser:\n            return redirect('tenant:tenant-home')",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "MyLogoutView",
+        "kind": 6,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "class MyLogoutView(LogoutView):\n    next_page = reverse_lazy(\"user:user-login\")\ndef ProfileView(request):\n    try:\n        user_apartment = UserApartment.objects.get(username=request.user)\n    except UserApartment.DoesNotExist:\n        user_apartment = None\n    try:\n        book = Book.objects.get(username=request.user)\n    except Book.DoesNotExist:",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "EditProfileView",
+        "kind": 6,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "class EditProfileView(LoginRequiredMixin, UpdateView):\n    model = get_user_model()\n    form_class = EditProfileForm\n    template_name = \"user/editprofile.html\"\n    success_url = reverse_lazy(\"user:user-profile\")\n    def get_object(self):\n        return self.request.user\n    def get_context_data(self, **kwargs):\n        context = super(EditProfileView, self).get_context_data(**kwargs)\n        return context",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "GeneratePaymentReceiptPDF",
+        "kind": 6,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "class GeneratePaymentReceiptPDF(View):\n    def get(self, request, payment_id):\n        # Retrieve the payment details from the database\n        user = request.user\n        try:\n            payment = Payment.objects.filter(user=user, id=payment_id).latest('timestamp')\n        except Payment.DoesNotExist:\n            # Handle the case when the payment with the given payment_id does not exist\n            return HttpResponse(\"Payment not found\", status=404)\n        user = request.user",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "ProfileView",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def ProfileView(request):\n    try:\n        user_apartment = UserApartment.objects.get(username=request.user)\n    except UserApartment.DoesNotExist:\n        user_apartment = None\n    try:\n        book = Book.objects.get(username=request.user)\n    except Book.DoesNotExist:\n        book = None\n    try:",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "user_apartment_detail",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def user_apartment_detail(request, apartment_id):\n    apartment = get_object_or_404(Apartment, id=apartment_id)\n    return render(request, 'user/user_apartment_detail.html', {'apartment': apartment})\ndef book_success_view(request):\n    return render(request, 'action/book_success.html')\ndef book_fail_view(request):\n    return render(request, 'action/book_fail.html')\ndef rent_success_view(request):\n    return render(request, 'action/rent_success.html')\ndef rent_fail_view(request):",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "book_success_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def book_success_view(request):\n    return render(request, 'action/book_success.html')\ndef book_fail_view(request):\n    return render(request, 'action/book_fail.html')\ndef rent_success_view(request):\n    return render(request, 'action/rent_success.html')\ndef rent_fail_view(request):\n    return render(request, 'action/rent_fail.html')\ndef create_checkout_session(request, apartment_id):\n    stripe.api_key = 'sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X'",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "book_fail_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def book_fail_view(request):\n    return render(request, 'action/book_fail.html')\ndef rent_success_view(request):\n    return render(request, 'action/rent_success.html')\ndef rent_fail_view(request):\n    return render(request, 'action/rent_fail.html')\ndef create_checkout_session(request, apartment_id):\n    stripe.api_key = 'sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X'\n    user = request.user\n    apartment = Apartment.objects.get(id=apartment_id)",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "rent_success_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def rent_success_view(request):\n    return render(request, 'action/rent_success.html')\ndef rent_fail_view(request):\n    return render(request, 'action/rent_fail.html')\ndef create_checkout_session(request, apartment_id):\n    stripe.api_key = 'sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X'\n    user = request.user\n    apartment = Apartment.objects.get(id=apartment_id)\n    # Set the apartment_id in the session\n    request.session['apartment_id'] = apartment_id",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "rent_fail_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def rent_fail_view(request):\n    return render(request, 'action/rent_fail.html')\ndef create_checkout_session(request, apartment_id):\n    stripe.api_key = 'sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X'\n    user = request.user\n    apartment = Apartment.objects.get(id=apartment_id)\n    # Set the apartment_id in the session\n    request.session['apartment_id'] = apartment_id\n    session = stripe.checkout.Session.create(\n        payment_method_types=['card'],",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "create_checkout_session",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def create_checkout_session(request, apartment_id):\n    stripe.api_key = 'sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X'\n    user = request.user\n    apartment = Apartment.objects.get(id=apartment_id)\n    # Set the apartment_id in the session\n    request.session['apartment_id'] = apartment_id\n    session = stripe.checkout.Session.create(\n        payment_method_types=['card'],\n        line_items=[\n            {",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "success_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def success_view(request):\n    user = request.user\n    apartment_id = request.session.get('apartment_id')\n    apartment = Apartment.objects.get(id=apartment_id)\n    # Save the payment\n    payment = Payment(user=user, apartment=apartment, amount=apartment.price, timestamp=datetime.now())\n    payment.save()\n    # Clear the apartment_id from the session\n    del request.session['apartment_id']\n    return render(request, 'user/success.html')",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "cancel_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def cancel_view(request):\n    return render(request, 'user/cancel.html')\ndef payment_view(request):\n    payments = Payment.objects.all()\n    return render(request, 'tenant/payment.html', {'payments': payments})\ndef payment_record_view(request):\n    user =request.user\n    payments = Payment.objects.filter(user=user)\n    context = {\n        'user': request.user,",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "payment_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def payment_view(request):\n    payments = Payment.objects.all()\n    return render(request, 'tenant/payment.html', {'payments': payments})\ndef payment_record_view(request):\n    user =request.user\n    payments = Payment.objects.filter(user=user)\n    context = {\n        'user': request.user,\n        'payments': payments\n    }",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "payment_record_view",
+        "kind": 2,
+        "importPath": "user.views",
+        "description": "user.views",
+        "peekOfCode": "def payment_record_view(request):\n    user =request.user\n    payments = Payment.objects.filter(user=user)\n    context = {\n        'user': request.user,\n        'payments': payments\n    }\n    return render(request, 'user/payment_records.html',context)\nclass GeneratePaymentReceiptPDF(View):\n    def get(self, request, payment_id):",
+        "detail": "user.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'arms.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]

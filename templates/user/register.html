@@ -1,0 +1,195 @@
+{% extends 'base_site.html' %}
+
+{% block title %}Register Page{% endblock  %}
+
+{% block content %}
+
+    {% comment %} <section class="bg-white">
+        <div class="lg:grid lg:min-h-screen lg:grid-cols-12">
+            <div class="mx-auto max-w-lg">
+                <form action="" class="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8" method="POST">
+                    {% csrf_token %}
+                    <p class="text-center text-lg font-medium">Register Here</p>
+    
+                    <div class="col-span-6 sm:col-span-3">
+                        <label for="Username" class="block text-sm font-medium text-gray-700">
+                            Username
+                        </label>
+                        {{ form.username }}
+                        {% if form.username.errors %}
+                            <ul class="errorlist">
+                                {% for error in form.username.errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+    
+                    <div class="col-span-6 sm:col-span-3">
+                        <label for="FirstName" class="block text-sm font-medium text-gray-700">
+                            First Name
+                        </label>
+                        {{ form.first_name }}
+                        {% if form.first_name.errors %}
+                            <ul class="errorlist">
+                                {% for error in form.first_name.errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+    
+                    <div class="col-span-6 sm:col-span-3">
+                        <label for="LastName" class="block text-sm font-medium text-gray-700">
+                            Last Name
+                        </label>
+                        {{ form.last_name }}
+                        {% if form.last_name.errors %}
+                            <ul class="errorlist">
+                                {% for error in form.last_name.errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+    
+                    <div class="col-span-6">
+                        <label for="Email" class="block text-sm font-medium text-gray-700">
+                            Email
+                        </label>
+                        {{ form.email }}
+                        {% if form.email.errors %}
+                            <ul class="errorlist">
+                                {% for error in form.email.errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+    
+                    <div class="col-span-6 sm:col-span-3">
+                        <label for="Phone" class="block text-sm font-medium text-gray-700">
+                            Phone Number
+                        </label>
+                        {{ form.phone_number }}
+                        {% if form.phone_number.errors %}
+                            <ul class="errorlist">
+                                {% for error in form.phone_number.errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+    
+                    <div class="col-span-6 sm:col-span-3">
+                        <label for="Password" class="block text-sm font-medium text-gray-700">
+                            Password
+                        </label>
+                        {{ form.password1 }}
+                        {% if form.password1.errors %}
+                            <ul class="errorlist">
+                                {% for error in form.password1.errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+
+    
+                    <div class="col-span-6 sm:col-span-3">
+                        <label for="PasswordConfirmation" class="block text-sm font-medium text-gray-700">
+                            Confirm Password
+                        </label>
+                        {{ form.password2 }}
+                    </div> 
+
+                    <div class="col-span-6 sm:col-span-3">
+                        <label for="Gender" class="block text-sm font-medium text-gray-700">
+                            Gender
+                        </label>
+                        {{ form.gender }}
+                        {% if form.gender.errors %}
+                            <ul class="errorlist">
+                                {% for error in form.gender.errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+
+                    <div class="col-span-6 sm:col-span-3">
+                        <label for="DateOfBirth" class="block text-sm font-medium text-gray-700">
+                            Date of Birth
+                        </label>
+                        {{ form.date_of_birth }}
+                        {% if form.date_of_birth.errors %}
+                            <ul class="errorlist">
+                                {% for error in form.date_of_birth.errors %}
+                                    <li>{{ error }}</li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+                    </div>
+    
+                    <div class="col-span-6 sm:flex sm:items-center sm:gap-4">
+                        <button type="submit" name="submit" class="block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white">
+                            Sign Up
+                        </button>
+                    </div>
+    
+                    <div class="col-span-6 sm:col-span-3">
+                        <p class="text-center text-sm text-gray-500">
+                            Already have an account?
+                            <a href="{% url 'user:user-login' %}" class="text-gray-700 underline">Log in</a>
+                        </p>
+                    </div>
+            
+                </form>
+            </div>
+        </div>
+    </section> {% endcomment %}
+
+<section class="bg-white">
+    <div class="mx-auto max-w-lg">
+        <form action="" class="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8" method="POST">
+            {% csrf_token %}
+            <p class="text-center text-lg font-medium">  
+                <strong class="block font-extrabold text-indigo-600">
+                    Register Here
+                </strong>
+            </p>
+      
+            {% for field in form %}
+                <div class="col-span-6 sm:col-span-3">
+                    <label for="{{ field.id_for_label }}" class="block text-sm font-medium text-gray-700">
+                        {{ field.label }}
+                    </label>
+                    {{ field }}
+                    {% if field.errors %}
+                        <ul class="errorlist">
+                            {% for error in field.errors %}
+                                <li class="text-red-500 text-sm mt-1">{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            {% endfor %}
+      
+            <div class="flex justify-center">
+                <button type="submit" name="submit" class="block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white">
+                Sign Up
+                </button>
+            </div>
+      
+            <div class="flex justify-center mt-4">
+                <p class="text-center text-sm text-gray-500">
+                    Already have an account?
+                    <a href="{% url 'user:user-login' %}" class="text-gray-700 underline">Log in</a>
+                </p>
+            </div>
+
+        </form>
+    </div>
+</section>  
+
+{% endblock  %}

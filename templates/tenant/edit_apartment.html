@@ -1,0 +1,42 @@
+{% extends 'base_site_tenant.html' %}
+
+{% block title %}Edit Apartment{% endblock  %}
+
+{% block content %}
+
+<section class="bg-white flex justify-center items-start h-screen">
+    <div class="w-full max-w-lg mt-0">
+        <form action="" class="mb-0 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            <p class="text-center text-lg font-medium">
+                <strong class="block font-extrabold text-indigo-600">
+                    Edit Apartment
+                </strong>
+            </p>
+
+            {% for field in form %}
+                <div class="col-span-6 sm:col-span-3">
+                    <label for="{{ field.id_for_label }}" class="block text-sm font-medium text-gray-700">
+                        {{ field.label }}
+                    </label>
+                    {{ field }}
+                    {% if field.errors %}
+                        <ul class="errorlist">
+                            {% for error in field.errors %}
+                                <li>{{ error }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            {% endfor %}
+
+            <div class="col-span-6 sm:flex sm:items-center sm:gap-4">
+                <button type="submit" name="submit" class="block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white">
+                    Update
+                </button>
+            </div>
+        </form>
+    </div>
+</section>
+
+{% endblock %}

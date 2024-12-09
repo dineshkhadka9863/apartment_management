@@ -1,0 +1,105 @@
+{% extends 'base_site_tenant.html' %}
+
+{% block title %}Complaint List {% endblock  %}
+
+{% block content %}
+
+<section class="bg-white">
+    <div class="mx-auto max-w-5xl">
+        <p class="text-center text-lg font-medium">  
+            <strong class="block font-extrabold text-indigo-600">
+                Complaint list
+            </strong>
+        </p>
+        <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+            <table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+                <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                    <tr>
+                        <th scope="col" class="px-6 py-3 sortable" onclick="sortTable(0)">
+                            User
+                            <span id="arrow-0" class="ml-1">&#8597;</span>
+                        </th>
+                        <th scope="col" class="px-6 py-3 sortable" onclick="sortTable(1)">
+                            Apartment ID
+                            <span id="arrow-1" class="ml-1">&#8597;</span>
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Email
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Phone
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Message
+                        </th>
+                        <th scope="col" class="px-6 py-3">
+                            Action
+                        </th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    {% for complaint in complaints %}
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
+                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                            {{complaint.name}}
+                        </th>
+                        <td class="px-6 py-4">
+                            {{complaint.apartment_id}}
+                        </td>
+                        <td class="px-6 py-4">
+                            {{complaint.email}}
+                        </td>
+                        <td class="px-6 py-4">
+                            {{complaint.phone_number}}
+                        </td>
+                        <td class="px-6 py-4">
+                            {{complaint.message}}
+                        </td>
+                        <td class="px-6 py-4">
+                            <a href="{% url 'dashboard:remove-complaint' pk=complaint.pk %}">
+                                <button type="button" class="text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-small rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                                    Remove
+                                </button>
+                            </a>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<script>
+    function sortTable(columnIndex) {
+        const table = document.querySelector("table");
+        const rows = Array.from(table.rows).slice(1); // Exclude the header row
+    
+        rows.sort((rowA, rowB) => {
+            const cellA = rowA.cells[columnIndex].textContent.trim();
+            const cellB = rowB.cells[columnIndex].textContent.trim();
+    
+            return cellA.localeCompare(cellB, undefined, { numeric: true, sensitivity: 'base' });
+        });
+    
+        // Reverse the array for descending order
+        if (table.dataset.sorted === "asc") {
+            rows.reverse();
+            table.dataset.sorted = "desc";
+        } else {
+            table.dataset.sorted = "asc";
+        }
+    
+        // Reinsert the sorted rows into the table
+        rows.forEach(row => table.appendChild(row));
+    }
+</script>
+
+<style>
+    .sortable {
+        cursor: pointer;
+        user-select: none;
+    }
+</style>  
+{% endblock %}

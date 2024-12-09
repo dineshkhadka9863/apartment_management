@@ -1,0 +1,89 @@
+<div class="flex h-screen flex-col justify-between border-e bg-white">
+    <div class="px-4 py-6">
+      <a href="/tenant"
+        class="grid h-10 w-32 place-content-center rounded-lg bg-gray-100 text-xs text-gray-600"
+      >
+      <strong class="block font-extrabold text-indigo-600">
+        ADMIN
+      </strong>
+      </a>
+  
+      <ul class="mt-6 space-y-1"> 
+        <li>
+          <a
+            href="{%url 'tenant:tenant-upload'%}"
+            class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          >
+            Add Apartment
+          </a>
+        </li>
+        
+        <li>
+          <a
+            href="{%url 'tenant:tenant-apartment-list'%}"
+            class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          >
+            Apartment List
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="{%url 'tenant:tenant-complaint-list'%}"
+            class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          >
+           Complaints
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="{%url 'tenant:tenant-book'%}"
+            class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          >
+            Booked Apartment
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="{%url 'tenant:tenant-rent'%}"
+            class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          >
+            Rent Request
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="{%url 'tenant:tenant-user-apartment'%}"
+            class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          >
+            Rented Apartment
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="{%url 'user:payment'%}"
+            class="block rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+          >
+            Payment
+          </a>
+        </li>
+
+      </ul>
+    </div>
+    <div class="mt-auto px-4 py-6">
+      <ul class="mt-6 space-y-1">
+          <li>
+              <form action="{% url 'user:user-logout' %}" method="post">
+                  {% csrf_token %}
+                  <button type="submit" class="block w-full text-left rounded-lg px-4 py-2 text-sm font-medium text-gray-500 hover:bg-gray-100 hover:text-gray-700">
+                      Log Out
+                  </button>
+              </form>
+          </li>
+      </ul>
+  </div>
+  </div>

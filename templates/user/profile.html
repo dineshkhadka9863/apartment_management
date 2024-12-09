@@ -1,0 +1,206 @@
+{% extends 'base_site.html' %}
+{% load static %}
+
+{% block title %}Profile Page{% endblock %}
+
+{% block content %}
+
+
+{% comment %} <section class="bg-gray-100">
+    <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+  
+        <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+        <div class="max-w-lg mx-auto bg-white rounded-lg shadow-lg">
+            <div class="p-6">
+                <div class="flex items-center justify-center">
+                    <div class="rounded-full p-4">
+                        <img src="{% static 'images/profile.png' %}" alt="Profile Image" style="width: 100px; height: 100px;">
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <h2 class="text-xl font-semibold text-gray-800">{{ user }}</h2>
+                </div>
+                <div class="mt-6">
+                    <div class="text-gray-700">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="font-semibold">First Name:</div>
+                            <div>{{ user.first_name }}</div>
+                            <div class="font-semibold">Last Name:</div>
+                            <div>{{ user.last_name }}</div>
+                            <div class="font-semibold">Gender:</div>
+                            <div>{{ user.gender }}</div>
+                            <div class="font-semibold">Contact No.:</div>
+                            <div>{{ user.phone_number }}</div>
+                            <div class="font-semibold">Email:</div>
+                            <div>{{ user.email }}</div>
+                            <div class="font-semibold">Birthday:</div>
+                            <div>{{ user.date_of_birth }}</div>
+                            <div class="font-semibold">Apartment:</div>
+                            <div>{{ apartment.apartment_id }}</div>
+                            <div>
+                                <a href="{% url 'user:user-apartment-detail' apartment_id=apartment.id %}" class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600 underline">View My Apartment</a>  
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <a href="{% url 'user:user-editprofile' %}" class="px-4 py-2 text-sm font-semibold text-white bg-indigo-600 rounded hover:bg-indigo-700">Edit Profile</a>
+                    <a href="#" class="px-4 py-2 text-sm font-semibold text-white bg-indigo-600 rounded hover:bg-indigo-700">Make Payment</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section> {% endcomment %}
+
+
+<section class="bg-gray-100">
+    <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+  
+        <div class="rounded-lg bg-white p-8 shadow-lg lg:col-span-3 lg:p-12">
+        <div class="max-w-lg mx-auto bg-white rounded-lg shadow-lg">
+            <div class="p-6">
+                <div class="flex items-center justify-center">
+                    <div class="rounded-full p-4">
+                        <img src="{% static 'images/profile.png' %}" alt="Profile Image" style="width: 100px; height: 100px;">
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <h2 class="text-xl font-semibold text-gray-800">{{ user }}</h2>
+                </div>
+                <div class="mt-6">
+                    <div class="text-gray-700">
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="font-semibold">First Name:</div>
+                            <div>{{ user.first_name }}</div>
+                            <div class="font-semibold">Last Name:</div>
+                            <div>{{ user.last_name }}</div>
+                            {% if apartment %}
+                            <div class="font-semibold">My Apartment:</div>
+                            <div> Apartment {{ apartment.apartment_id }}</div>
+                        {% endif %}
+                            <div class="font-semibold">Gender:</div>
+                            <div>{{ user.gender }}</div>
+                            <div class="font-semibold">Contact No.:</div>
+                            <div>{{ user.phone_number }}</div>
+                            <div class="font-semibold">Email:</div>
+                            <div>{{ user.email }}</div>
+                            <div class="font-semibold">Birthday:</div>
+                            <div>{{ user.date_of_birth }}</div>
+                         
+
+                            {% if book %}
+                                <div class="font-semibold">Booked Apartment:</div>
+                                <div>
+                                           
+                                    <a href="{% url 'dashboard:apartment-details' apartment_id=book.id %}" class="text-blue-600 underline">Apartment {{ book.apartment_id }}  </a>
+                                </div>
+                                
+                            {% endif %}
+
+                            {% if rent %}
+                                <div class="font-semibold">Rent Request:</div>
+                                <div>
+                                    <a href="{% url 'dashboard:apartment-details' apartment_id=rent.id %}" class="text-blue-600 underline">Apartment {{ rent.apartment_id }}  </a>
+                                </div>
+                            {% endif %}
+
+                            {%if apartment %}
+                            <div>
+                                <a href="{% url 'user:user-apartment-detail' apartment_id=apartment.id %}" class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600 underline">View My Apartment</a> 
+                                <a href="{% url 'user:payment-record' %}" class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600 underline">Payment records</a> 
+                            </div>
+                            {%endif%}
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-8 flex justify-center space-x-4">
+                    <a href="{% url 'user:user-editprofile' %}" class="px-4 py-2 text-sm font-semibold text-white bg-indigo-600 rounded hover:bg-indigo-700">Edit Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="mt-8 flex justify-center space-x-4">
+        {% if apartment %}
+       
+                    <form id="payment-form" action="{% url 'user:create-checkout-session' apartment_id=apartment.id %}" method="POST">
+                    {% csrf_token %}
+                    <input type="hidden" name="apartment_id" value="{{ apartment.id }}">
+                    <button type="submit" name="submit" class="px-4 py-2 text-sm font-semibold text-white bg-indigo-600 rounded hover:bg-indigo-700">
+                        Make Payment {{ price_in_npr }}
+                    </button>
+                    
+
+
+
+                </form>
+
+                    <a href="{%url 'dashboard:dashboard-complaint'%}" class="px-4 py-2 text-sm font-semibold text-white bg-indigo-600 rounded hover:bg-indigo-700">
+                          File a complaint
+                    </a>
+        {% endif %}
+        </div>
+    </div>
+    
+</div>
+</section>
+
+<script>
+    
+    var stripe = Stripe('sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X');
+  
+    var form = document.getElementById('payment-form');
+    form.addEventListener('submit', function(event) {
+      event.preventDefault();
+  
+      // Retrieve the card details from the form
+      var cardNumber = document.getElementById('card-number').value;
+      var cardExpiry = document.getElementById('card-expiry').value;
+      var cardCVC = document.getElementById('card-cvc').value;
+  
+      // Create a token with the card details
+      stripe.createToken('card', {
+        number: cardNumber,
+        exp_month: cardExpiry.split('/')[0],
+        exp_year: cardExpiry.split('/')[1],
+        cvc: cardCVC
+      }).then(function(result) {
+        if (result.error) {
+          // Display an error message to the user
+          alert(result.error.message);
+        } else {
+          // Send the token to your server for further processing
+          var token = result.token.id;
+          // Call your server endpoint to process the payment with the token
+          // Replace '/charge' with your own server endpoint URL
+          fetch('/charge', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ token: token })
+          })
+          .then(function(response) {
+            // Handle the response from your server
+            if (response.ok) {
+              alert('Payment successful!');
+            } else {
+              alert('Payment failed. Please try again.');
+            }
+          })
+          .catch(function(error) {
+            // Handle any errors during the request
+            console.error('Error:', error);
+          });
+        }
+      });
+    });
+  </script>
+
+
+{% endblock %}
+
+
+
+

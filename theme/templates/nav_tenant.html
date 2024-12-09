@@ -1,0 +1,31 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My Django-Tailwind App</title>
+    {% tailwind_css %}
+</head>
+<body>
+    <!-- your HTML content here -->
+    <header aria-label="Site Header" class="bg-white">
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+          
+          <div class="max-w-screen-xl mx-auto flex-1 md:flex md:items-center md:gap-12">
+            <a href="/tenant">
+              {% comment %} <span class="sr-only">Home</span>
+              <img src="{% static 'images/home.jpg' %}" alt="Logo" class="h-8 w-auto"> {% endcomment %}
+              <h1 class="text-3xl font-extrabold sm:text-3xl text-white">
+                <strong class="block font-extrabold text-indigo-600">
+                  ADMIN
+                </strong>
+              </h1>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+</body>
+</html>

@@ -1,0 +1,241 @@
+{% extends 'base_site.html' %}
+{% load static %}
+{% load static custom_filters %}
+
+
+{% block title %}
+HomePage
+{% endblock  %}
+
+{% block content %}
+
+<section class="bg-gray-100">
+  <div class="flex items-center justify-center">
+    <div class="max-w-xl text-center ltr:sm:text-left rtl:sm:text-right">
+      <h1 class="text-3xl font-extrabold sm:text-5xl text-white mt-5">
+        <strong class="block font-extrabold text-indigo-600">
+          Find an Apartment
+        </strong>
+      </h1>
+    </div>
+  </div>
+  <div class="flex items-center justify-center mt-2">
+    <form action="{% url 'dashboard:dashboard-listing'%}" method="GET" class="flex">
+      <input type="text" name="search" placeholder="Search apartment..." class="w-full px-4 py-2.5 text-sm rounded-lg border border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+      <button class="ml-2 text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+        Search
+      </button>
+    </form>
+  </div>
+  <div class="flex items-center justify-center mt-2">
+    
+    <form action="{% url 'dashboard:dashboard-listing' %}" method="GET" class="flex items-center justify-center">
+      <select name="location" class="ml-2 px-4 py-2.5 text-sm rounded-lg border border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        <option value="">Locations</option>
+        <option value="Gaushala">Gaushala</option>
+        <option value="Baneshwor">Baneshwor</option>
+        <option value="Maharjagunj">Maharjagunj</option>
+      </select>
+      <select name="floor" class="ml-2 px-4 py-2.5 text-sm rounded-lg border border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        <option value="">Floors</option>
+        <option value="Ground">Ground</option>
+        <option value="First">First</option>
+        <option value="Seond">Seond</option>
+        <option value="Third">Third</option>
+      </select>
+      <select name="bhk" class="ml-2 px-4 py-2.5 text-sm rounded-lg border border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+        <option value="">BHK</option>
+        <option value="1BHK">1BHK</option>
+        <option value="2BHK">2BHK</option>
+        <option value="3BHK">3BHK</option>
+      </select>
+      <input type="number" name="price" placeholder="Max Price" class="ml-2 w-32 px-4 py-2.5 text-sm rounded-lg border border-gray-300 focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+      <button type="submit" class="ml-2 text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5">
+        Apply Filter
+      </button>
+    </form>
+  </div>
+  
+  
+  
+  {% comment %} <div class="mx-auto max-w-screen-xl px-4 py-10 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+      {% for apartment in apartment %}
+      
+      <div class="bg-white rounded-lg shadow-lg p-6">
+        <a href="{% url 'dashboard:apartment-details' apartment_id=apartment.id %}">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Apartment {{ apartment.apartment_id }}</h3>
+          <img src="{{ apartment.image.url }}" alt="Apartment Image" class="h-48 w-full object-cover mb-4 rounded-lg">
+        </a>
+        <p class="text-gray-600 mb-2 font-semibold">Location: {{ apartment.location }}</p>
+        <p class="text-gray-600 mb-2 font-semibold">{{ apartment.bhk }}, {{ apartment.floor }} Floor</p>
+        <p class="text-gray-600 mb-2">{{ apartment.description }}</p>
+        
+        
+        <div class="flex items-center">
+          {% if apartment.parking %}
+          <div class="mr-2">
+            <img src="{% static 'images/parking.jpg' %}" alt="Logo" class="h-6 w-6 mx-auto">
+          </div>
+          {% endif %}
+          {% if apartment.wifi %}
+          <div class="mr-2">
+            <img src="{% static 'images/wifi.png' %}" alt="Logo" class="h-6 w-6 mx-auto">
+          </div>
+          {% endif %}
+          {% if apartment.swimming_pool %}
+          <div class="mr-2">
+            <img src="{% static 'images/pool.png' %}" alt="Logo" class="h-6 w-6 mx-auto">
+          </div>
+          {% endif %}
+          {% if apartment.ac %}
+          <div>
+            <img src="{% static 'images/ac.png' %}" alt="Logo" class="h-6 w-6 mx-auto">
+          </div>
+          {% endif %}
+        </div>
+        
+        <div class="flex items-center justify-between">
+          <span class="text-lg font-semibold">Rs. {{ apartment.price|add_commas }}</span>
+          {% if user.is_authenticated %}
+          <div>
+            <a href="{% url 'dashboard:dashboard-book' apartment_id=apartment.id username=user.username %}">
+              <button class="book-now-btn text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                Book now
+              </button> 
+            </a>
+            
+            <a href="{% url 'dashboard:dashboard-rent' apartment_id=apartment.id username=user.username %}">
+              <button type="button" class="rent-btn text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                Send Rent Request
+              </button> 
+            </a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div> {% endcomment %}
+
+  <div class="mx-auto max-w-screen-xl px-4 py-10 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
+      {% for apartment in apartment %}
+      <div class="bg-white rounded-lg shadow-lg p-6">
+        <a href="{% url 'dashboard:apartment-details' apartment_id=apartment.id %}">
+          <h3 class="text-xl font-semibold text-gray-800 mb-2">Apartment {{ apartment.apartment_id }}</h3>
+          <img src="{{ apartment.image.url }}" alt="Apartment Image" class="h-48 w-full object-cover mb-4 rounded-lg">
+        </a>
+        <p class="text-gray-600 mb-2 font-semibold">Location: {{ apartment.location }}</p>
+        <p class="text-gray-600 mb-2 font-semibold">{{ apartment.bhk }}, {{ apartment.floor }} Floor</p>
+        <p class="text-gray-600 mb-2">{{ apartment.description }}</p>
+        <div class="flex items-center">
+          {% if apartment.parking %}
+          <div class="mr-2">
+            <img src="{% static 'images/parking.jpg' %}" alt="Logo" class="h-6 w-6 mx-auto">
+          </div>
+          {% endif %}
+          {% if apartment.wifi %}
+          <div class="mr-2">
+            <img src="{% static 'images/wifi.png' %}" alt="Logo" class="h-6 w-6 mx-auto">
+          </div>
+          {% endif %}
+          {% if apartment.swimming_pool %}
+          <div class="mr-2">
+            <img src="{% static 'images/pool.png' %}" alt="Logo" class="h-6 w-6 mx-auto">
+          </div>
+          {% endif %}
+          {% if apartment.ac %}
+          <div>
+            <img src="{% static 'images/ac.png' %}" alt="Logo" class="h-6 w-6 mx-auto">
+          </div>
+          {% endif %}
+        </div>
+        <div class="flex items-center justify-between">
+          <span class="text-lg font-semibold">Rs. {{ apartment.price|add_commas }}</span>
+          {% if user.is_authenticated %}
+          <div>
+            <a href="{% url 'dashboard:dashboard-book' apartment_id=apartment.id username=user.username %}">
+              <button class="book-now-btn text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                Book a Tour
+              </button>
+            </a>
+            <a href="{% url 'dashboard:dashboard-rent' apartment_id=apartment.id username=user.username %}">
+              <button type="button" class="rent-btn text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">
+                Send Rent Request
+              </button>
+            </a>
+          </div>
+          {% endif %}
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+</section>
+
+{% endblock %}
+
+
+
+
+
+
+
+
+
+
+{% comment %} {% for apartment in apartment %}
+<section>
+  <div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+    
+    <div class="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+      <div class="relative h-64 overflow-hidden sm:h-80 lg:h-full">
+        <a href="{% url 'dashboard:apartment-details' apartment_id=apartment.id %}">
+          <img src="{{ apartment.image.url }}">
+        </a>
+      </div>
+      
+      
+      <div class="lg:py-16">
+        <div class="max-w-3xl">
+          <h2 class="text-3xl font-bold sm:text-4xl">
+            APARTMENT {{apartment.apartment_id}}
+          </h2>
+        </div>
+        <article class="space-y-4 text-gray-600">
+          <div class="bg-white p-4 sm:p-6">
+            
+            <div class="flex">
+              <h3 class="text-2xl sm:text-2xl text-gray-500">
+                Rs. {{apartment.price}}
+              </h3>
+            </div>
+            
+            <div class="flex">
+              <h3 class="text-2xl font-bold sm:text-3xl">
+                {{apartment.location}}
+              </h3>
+              
+            </div>    
+            <p class= "mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
+              <a href="{% url 'dashboard:dashboard-book' apartment_id=apartment.id username=user.username %}">
+                <button type="button" class="text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                  Book now
+                </button> 
+              </a>
+              
+              <a href="{% url 'dashboard:dashboard-rent' apartment_id=apartment.id username=user.username %}">
+                <button type="button" class="text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                  Rent/Buy
+                </button> 
+              </a>
+            </p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div> 
+</section>
+{% endfor %} {% endcomment %}

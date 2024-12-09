@@ -1,0 +1,8 @@
+<title> Payment Record</title>
+
+{% for payment in payments %}
+<div>
+    <p>Payment ID: {{ payment.id }}</p>
+    <a href="{% url 'user:generate_payment_receipt_pdf' payment_id=payment.id %}" class="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600 underline">Download Payment Receipt</a>     
+</div>
+{% endfor %}

@@ -1,0 +1,41 @@
+{% load static tailwind_tags %} {%load static%}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>
+		{% block title %}
+
+        {% endblock  %}
+	</title>
+	{% block stylesheet %}
+		<link rel="stylesheet" href="{% static 'css/tailwind.min.css' %}">
+	{% endblock stylesheet %}
+	{% tailwind_css %}
+	</head>
+
+	<body>
+		{% comment %} {% include 'nav_tenant.html' %} {% endcomment %}
+		<div class="flex space-between">
+			{% include 'sidebar.html' %}
+			<div class="container flex justify-center">
+				<div class="mt-16">
+					{% block content %}
+					
+					{% endblock %}
+				</div>
+			</div>
+			
+			
+		</div>
+
+
+		<div class="container">
+
+            {% block script %}
+                <script src="{% static 'js/jquery.min.js' %}"></script>
+                <script src="{% static 'js/jquery-ajax.min.js' %}"></script>
+                <script src="{% static 'js/bootstrap-min.js' %}"></script>
+            {% endblock script %}
+        </div>
+	</body>
+</html>

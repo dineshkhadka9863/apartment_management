@@ -1,0 +1,50 @@
+{% extends 'base_site.html' %}
+{% load static %}
+
+{% block title %}Edit Profile{% endblock %}
+
+{% block content %}
+<div class="bg-gray-100 min-h-screen">
+    <div class="container mx-auto my-10 px-4">
+        <div class="max-w-lg mx-auto bg-white rounded-lg shadow-lg">
+            <div class="p-6">
+                <div class="text-center mt-4">
+                    <h2 class="text-xl font-semibold text-gray-800">Edit Profile</h2>
+                </div>
+                <form class="mt-6" method="post">
+                    {% csrf_token %}
+                    <!-- Add your form fields here -->
+                    <div class="grid grid-cols-2 gap-4">
+
+                        <div class="font-semibold">First Name:</div>
+                        <div>
+                            {{form.first_name}}
+                        </div>
+                        <div class="font-semibold">Last Name:</div>
+                        <div>
+                            {{form.last_name}}
+                            
+                        </div>
+                       
+                        <div class="font-semibold">Contact No.:</div>
+                        <div>
+                            {{form.phone_number}}
+                        </div>
+                        <div class="font-semibold">Email:</div>
+                        <div>
+                            {{form.email}}
+                        </div>
+                        
+                    </div>
+                    <div class="mt-8">
+                        <div class="flex justify-center">
+                            <button type="submit" class="px-4 py-2 text-sm font-semibold text-white bg-indigo-600 rounded hover:bg-indigo-700">Save Changes</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

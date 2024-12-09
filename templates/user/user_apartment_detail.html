@@ -1,0 +1,70 @@
+{% extends 'base_site.html' %}
+{% load static %}
+{% load static custom_filters %}
+{% block title %}Apartment Details{% endblock %}
+
+{% block content %}
+<section class="px-4 py-8 lg:px-8">
+    <div class="max-w-screen-xl mx-auto">
+        <div class="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
+            <div class="relative h-64 sm:h-80 lg:h-full">
+                <img src="{{ apartment.image.url }}" alt="Apartment Image" class="w-full h-full object-cover">
+            </div>
+
+            <div class="flex flex-col justify-between lg:py-16">
+                <div>
+                    <h2 class="text-3xl font-bold sm:text-4xl">APARTMENT {{ apartment.apartment_id }}</h2>
+                    <div class="flex items-center mt-4">
+                        <span class="text-lg font-semibold">Rs. {{ apartment.price|add_commas }}</span>
+                    </div>
+                    <p class="text-gray-600 mt-4 font-semibold font-bold">Location: {{ apartment.location }}</p>
+                    <p class="text-gray-600 mb-2 font-semibold">{{ apartment.bhk }}, {{ apartment.floor }} Floor</p>
+                </div>
+                <div class="flex items-center lg:py-3">
+                  {% if apartment.parking %}
+                  <div class="mr-2">
+                    <img src="{% static 'images/parking.jpg' %}" alt="Logo" class="h-8 w-8 mx-auto">
+                  </div>
+                  {% endif %}
+                  {% if apartment.wifi %}
+                  <div class="mr-2">
+                    <img src="{% static 'images/wifi.png' %}" alt="Logo" class="h-8 w-8 mx-auto">
+                  </div>
+                  {% endif %}
+                  {% if apartment.swimming_pool %}
+                  <div class="mr-2">
+                    <img src="{% static 'images/pool.png' %}" alt="Logo" class="h-8 w-8 mx-auto">
+                  </div>
+                  {% endif %}
+                  {% if apartment.ac %}
+                  <div>
+                    <img src="{% static 'images/ac.png' %}" alt="Logo" class="h-8 w-8 mx-auto">
+                  </div>
+                  {% endif %}
+                </div>
+                <div>
+                    <p class="text-2xl text-gray-500 mt-4">{{ apartment.description }}</p>
+                </div>
+                
+                  <div class="flex justify-start mt-8">
+                    <form id="payment-form" action="{% url 'user:create-checkout-session' apartment_id=apartment.id %}" method="POST">
+                        {% csrf_token %}
+                        <input type="hidden" name="apartment_id" value="{{ apartment.id }}">
+                        <button type="submit" name="submit" class="text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                            Make Payment {{ price_in_npr }}
+                        </button>
+                    </form>
+                      <a href="{%url 'dashboard:dashboard-complaint'%}">
+                        <button type="button" class="text-white bg-gradient-to-r from-indigo-600 via-blue-600 to-indigo-800 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 shadow-lg shadow-blue-500/50 dark:shadow-lg dark:shadow-blue-800/80 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 ">
+                          File a complaint
+                        </button> 
+                    </a>
+                      
+                  </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

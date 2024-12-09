@@ -1,0 +1,70 @@
+{% load static tailwind_tags %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>NavBar</title>
+    {% tailwind_css %}
+</head>
+
+<body>
+    <!-- your HTML content here -->
+    <header aria-label="Site Header" class="bg-white">
+      
+      <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify- gap-5 space-between">
+          <div class="max-w-screen-xl mx-auto flex-1 md:flex md:items-center md:gap-12 flex space-between">
+            <a href="/">
+              <span class="sr-only">Home</span>
+              <img src="{% static 'images/home.jpg' %}" alt="Logo" class="h-8 w-auto">
+            </a>
+          </div>
+    
+          <div class="md:flex md:items-center md:gap-12">
+            
+            
+           
+            {% if request.user.is_authenticated %}
+    <div class="flex items-center gap-4">
+        <a class="text-gray-500 transition hover:text-gray-500/75" href="{% url 'user:user-profile' %}">
+            {{ user }}
+        </a>
+
+        <!-- Logout Form -->
+        <form action="{% url 'user:user-logout' %}" method="post" style="display:inline;">
+            {% csrf_token %}
+            <button type="submit" class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-indigo-600">
+                Log Out
+            </button>
+        </form>
+
+        <script>
+            document.getElementById('dropdown-btn').addEventListener('click', function() {
+                var menu = document.getElementById('dropdown-menu');
+                menu.classList.toggle('hidden');
+            });
+        </script>
+    </div>
+{% endif %}
+
+
+            {% if not request.user.is_authenticated %}
+            <div class="flex items-center gap-4">
+                <a class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-indigo-600" href="{%url 'user:user-login'%}" >
+                  Log In
+                </a>
+                <a class="rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-indigo-600" href="{%url 'user:user-register'%}">
+                    Sign Up
+                </a>
+                
+              </div>
+            </div>
+            {%endif %}
+          </div>
+        </div>
+      </div>
+    </header>
+    
+</body>
+</html>
+

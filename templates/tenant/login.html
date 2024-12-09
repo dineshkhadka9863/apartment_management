@@ -1,0 +1,51 @@
+{% extends 'base_site.html' %}
+
+{% block title %}Login Page{% endblock  %}
+
+{% block content %}
+     {% comment %} <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-6 offset-md-3">
+                <div class="border p-3 bg-white">
+                    <h3>Login Page</h3>
+                    <form method="POST">
+                        {% csrf_token %}
+                        {{ form.as_p}}
+                        <input class="btn btn-success" type="submit" value="Login">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>  {% endcomment %}
+
+
+    <!--
+  Heads up! 👋
+
+  Plugins:
+    - @tailwindcss/forms
+-->
+<div class="mx-auto max-w-screen-xl px-4 py-16 sm:px-6 lg:px-8">
+    <div class="mx-auto max-w-lg">
+      
+      <form class="mb-0 mt-6 space-y-4 rounded-lg p-4 shadow-lg sm:p-6 lg:p-8" method="POST">
+        {% csrf_token %}
+        <p class="text-center text-lg font-medium">
+            
+            <strong class="block font-extrabold text-indigo-600">
+                Tenant Login
+            </strong>
+        </p>
+        {{ form.as_p }}
+    
+        <button type="submit" class="block w-full rounded-lg bg-indigo-600 px-5 py-3 text-sm font-medium text-white">
+          Log in
+        </button>
+      </form>
+      
+    </div>
+</div>
+
+
+
+{% endblock  %}

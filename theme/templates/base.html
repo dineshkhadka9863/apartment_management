@@ -1,0 +1,87 @@
+{% load static tailwind_tags %} {%load static%}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>
+		{% block title %}
+
+        {% endblock  %}
+	</title>
+	{% block stylesheet %}
+		<link rel="stylesheet" href="{% static 'css/tailwind.min.css' %}">
+		<link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+	{% endblock stylesheet %}
+	{% tailwind_css %}
+	</head>
+
+	<body>
+		{% include 'nav.html' %}
+		{% block content %}
+
+		{% endblock %}
+
+		<div class="container">
+
+            {% block script %}
+                <script src="{% static 'js/jquery.min.js' %}"></script>
+                <script src="{% static 'js/jquery-ajax.min.js' %}"></script>
+                <script src="{% static 'js/bootstrap-min.js' %}"></script>
+
+				<script src="https://js.stripe.com/v3/"></script>
+
+				<script>
+    
+					var stripe = Stripe('sk_test_51NJzcuAps0nGDChLPRJRVOTmAWbsNTmX2zVDjxPD4FjKO13GCfcwQdZLLUnNl9X8X8NBLgCRGnVn3EHhnELvOPv900DlkmZV8X');
+				  
+					var form = document.getElementById('payment-form');
+					form.addEventListener('submit', function(event) {
+					  event.preventDefault();
+				  
+					  // Retrieve the card details from the form
+					  var cardNumber = document.getElementById('card-number').value;
+					  var cardExpiry = document.getElementById('card-expiry').value;
+					  var cardCVC = document.getElementById('card-cvc').value;
+				  
+					  // Create a token with the card details
+					  stripe.createToken('card', {
+						number: cardNumber,
+						exp_month: cardExpiry.split('/')[0],
+						exp_year: cardExpiry.split('/')[1],
+						cvc: cardCVC
+					  }).then(function(result) {
+						if (result.error) {
+						  // Display an error message to the user
+						  alert(result.error.message);
+						} else {
+						  // Send the token to your server for further processing
+						  var token = result.token.id;
+						  // Call your server endpoint to process the payment with the token
+						  // Replace '/charge' with your own server endpoint URL
+						  fetch('/charge', {
+							method: 'POST',
+							headers: {
+							  'Content-Type': 'application/json'
+							},
+							body: JSON.stringify({ token: token })
+						  })
+						  .then(function(response) {
+							// Handle the response from your server
+							if (response.ok) {
+							  alert('Payment successful!');
+							} else {
+							  alert('Payment failed. Please try again.');
+							}
+						  })
+						  .catch(function(error) {
+							// Handle any errors during the request
+							console.error('Error:', error);
+						  });
+						}
+					  });
+					});
+				  </script>
+
+            {% endblock script %}
+        </div>
+	</body>
+</html>
