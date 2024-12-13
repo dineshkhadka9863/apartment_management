@@ -11,7 +11,7 @@ from django.db.models import Q
 from django.db import IntegrityError
 from django.core.cache import cache
 import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
+from .cosine_similarity import cosine_similarity
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
@@ -72,8 +72,14 @@ class ListingView(ListView):
 
         return queryset
     
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        # Get unique locations from database
+        context['locations'] = Apartment.objects.values_list('location', flat=True).distinct()
+        return context
 
-    
+
+
 
 class CategoricalTransformer(BaseEstimator, TransformerMixin):
     def fit(self, X, y=None):
@@ -89,37 +95,104 @@ class CategoricalTransformer(BaseEstimator, TransformerMixin):
 def apartment_details(request, apartment_id):
     apartment = get_object_or_404(Apartment, id=apartment_id)
     all_apartments = Apartment.objects.all()
-    apartments_data = [apt for apt in all_apartments if apt.location == apartment.location]
     
-    categorical_indices = [0, 1, 2, 3, 4, 5, 6]
-
-    pipeline = Pipeline([
-        ('transformer', ColumnTransformer([
-            ('categorical', CategoricalTransformer(), categorical_indices)
-        ], remainder='passthrough')),
-    ])
-
-    transformed_data = pipeline.fit_transform([[apt.location, apt.bhk, apt.floor, apt.parking, apt.wifi, apt.swimming_pool, apt.ac, apt.price] for apt in apartments_data])
-    cosine_similarities = cosine_similarity(transformed_data)
+    # Filter apartments by same location first, excluding current apartment
+    apartments_data = [apt for apt in all_apartments 
+                      if apt.location == apartment.location and apt.id != apartment_id]
     
-    reference_apartment_index = apartments_data.index(apartment)
+    if not apartments_data:
+        return render(
+            request,
+            "dashboard/apartment_details.html",
+            {
+                "apartment": apartment,
+                "recommended_apartments": [],
+                "similarity_scores_dict": {},
+            },
+        )
 
-    similarity_scores = cosine_similarities[reference_apartment_index]
+    try:
+        # Define fixed price range (±100,000)
+        price_range = 100000  # Fixed range of 100,000
+        min_price = apartment.price - price_range
+        max_price = apartment.price + price_range
+        
+        # Filter apartments within price range
+        apartments_in_range = [apt for apt in apartments_data 
+                             if min_price <= apt.price <= max_price]
+        
+        if not apartments_in_range:
+            # If no apartments in range, take closest ones by price
+            apartments_data.sort(key=lambda x: abs(x.price - apartment.price))
+            apartments_in_range = apartments_data[:4]
 
-    apartment_similarity = [(index, score) for index, score in enumerate(similarity_scores)]
-    
-    apartment_similarity.sort(key=lambda x: x[1], reverse=True)
-    
-    top_recommendations = [index for index, _ in apartment_similarity if index != reference_apartment_index][:4]
- 
-    recommended_apartments = [apartments_data[index] for index in top_recommendations]
+        # Prepare feature matrix including current apartment
+        features = []
+        all_apts = [apartment] + apartments_in_range
+        
+        for apt in all_apts:
+            # Convert boolean values to integers
+            parking = 1 if apt.parking else 0
+            wifi = 1 if apt.wifi else 0
+            swimming_pool = 1 if apt.swimming_pool else 0
+            ac = 1 if apt.ac else 0
+            
+            # Extract BHK number
+            bhk_num = float(apt.bhk.replace('BHK', '').strip())
+            
+            # Convert floor to numerical value
+            floor_map = {'Ground': 0, 'First': 1, 'Second': 2, 'Third': 3}
+            floor_num = floor_map.get(apt.floor, 0)
+            
+            features.append([
+                bhk_num * 2,  # Give more weight to BHK
+                floor_num,
+                parking,
+                wifi,
+                swimming_pool,
+                ac,
+                float(apt.price) / 10000  # Normalize price to smaller scale
+            ])
 
-    similarity_scores_dict = {recommended_apartment.id: apartment_similarity[index] for index,
-                               recommended_apartment in enumerate(recommended_apartments)}
+        # Convert to numpy array
+        features = np.array(features, dtype=float)
+        
+        # Normalize features
+        max_vals = np.max(features, axis=0)
+        min_vals = np.min(features, axis=0)
+        features_normalized = (features - min_vals) / (max_vals - min_vals + 1e-10)
+        
+        # Calculate similarities using custom implementation
+        similarities = []
+        reference_features = features_normalized[0]
+        
+        for features in features_normalized[1:]:
+            similarity = cosine_similarity(reference_features, features)
+            similarities.append(similarity)
+        
+        # Create (apartment, score) pairs and sort by similarity
+        apartment_similarity = list(zip(apartments_in_range, similarities))
+        
+        # Sort primarily by price proximity to reference apartment, then by similarity
+        apartment_similarity.sort(
+            key=lambda x: (abs(x[0].price - apartment.price), -x[1])
+        )
+        
+        # Get top 4 recommendations
+        recommended_apartments = [apt for apt, _ in apartment_similarity[:4]]
+        
+        # Create similarity scores dictionary
+        similarity_scores_dict = {
+            apt.id: score 
+            for apt, score in apartment_similarity[:4]
+        }
+        
+    except Exception as e:
+        print(f"Recommendation error: {str(e)}")
+        recommended_apartments = []
+        similarity_scores_dict = {}
 
-    print(similarity_scores_dict)
-
-    return render( 
+    return render(
         request,
         "dashboard/apartment_details.html",
         {
